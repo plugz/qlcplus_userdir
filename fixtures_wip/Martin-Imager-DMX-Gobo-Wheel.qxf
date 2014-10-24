@@ -1,0 +1,168 @@
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition>
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.4.0 beta1</Version>
+  <Author>plug,,,</Author>
+ </Creator>
+ <Manufacturer>Martin</Manufacturer>
+ <Model>Imager DMX Gobo Wheel</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Lamp On/Off, Reset">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="207">no change</Capability>
+  <Capability Min="208" Max="217">Reset lamp</Capability>
+  <Capability Min="218" Max="227">no change</Capability>
+  <Capability Min="228" Max="237">lamp ON</Capability>
+  <Capability Min="238" Max="247">no change</Capability>
+  <Capability Min="248" Max="255">lamp OFF</Capability>
+ </Channel>
+ <Channel Name="Intensity">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
+ <Channel Name="Image selection">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="19">Img 1, indexed rot</Capability>
+  <Capability Min="20" Max="39">Img 2, indexed rot</Capability>
+  <Capability Min="40" Max="59">Img 3, indexed rot</Capability>
+  <Capability Min="60" Max="79">Img 4, indexed rot</Capability>
+  <Capability Min="80" Max="99">Img 1, continuous rot</Capability>
+  <Capability Min="100" Max="119">Img 2, continuous rot</Capability>
+  <Capability Min="120" Max="139">Img 3, continuous rot</Capability>
+  <Capability Min="140" Max="159">Img 4, continuous rot</Capability>
+  <Capability Min="160" Max="198">CCW rot, slow->fast</Capability>
+  <Capability Min="199" Max="237">CW row, fast->slow</Capability>
+  <Capability Min="238" Max="255">no change</Capability>
+ </Channel>
+ <Channel Name="Image rotation">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="2">no rot</Capability>
+  <Capability Min="3" Max="127">CCW, slow->fast</Capability>
+  <Capability Min="128" Max="252">CW, fast->slow</Capability>
+  <Capability Min="253" Max="255">no rot</Capability>
+ </Channel>
+ <Channel Name="Image rotation, fine">
+  <Group Byte="1">Pan</Group>
+ </Channel>
+ <Channel Name="Focus">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">focus</Capability>
+ </Channel>
+ <Channel Name="MM Pan">
+  <Group Byte="0">Pan</Group>
+ </Channel>
+ <Channel Name="MM Pan fine">
+  <Group Byte="1">Pan</Group>
+ </Channel>
+ <Channel Name="MM Tilt">
+  <Group Byte="0">Tilt</Group>
+ </Channel>
+ <Channel Name="MM Tilt fine">
+  <Group Byte="1">Tilt</Group>
+ </Channel>
+ <Channel Name="MM Pan/Tilt Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="2">tracking mode</Capability>
+  <Capability Min="3" Max="251">fast->slow</Capability>
+  <Capability Min="252" Max="255">blackout while moving</Capability>
+ </Channel>
+ <Channel Name="Image and focus speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="2">Tracking mode</Capability>
+  <Capability Min="3" Max="251">fast->slow</Capability>
+  <Capability Min="252" Max="255">Blackout while moving</Capability>
+ </Channel>
+ <Channel Name="nothing00">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="nothing01">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="nothing02">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="nothing03">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="nothing04">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Mode Name="mode 1, no mirror">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="1" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Lamp On/Off, Reset</Channel>
+  <Channel Number="1">Intensity</Channel>
+  <Channel Number="2">Image selection</Channel>
+  <Channel Number="3">Image rotation</Channel>
+  <Channel Number="4">Focus</Channel>
+  <Channel Number="5">nothing00</Channel>
+  <Channel Number="6">nothing01</Channel>
+  <Channel Number="7">nothing02</Channel>
+  <Channel Number="8">Image and focus speed</Channel>
+ </Mode>
+ <Mode Name="mode 2, no mirror">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Lamp On/Off, Reset</Channel>
+  <Channel Number="1">Intensity</Channel>
+  <Channel Number="2">Image selection</Channel>
+  <Channel Number="3">Image rotation</Channel>
+  <Channel Number="4">Image rotation, fine</Channel>
+  <Channel Number="5">Focus</Channel>
+  <Channel Number="6">nothing00</Channel>
+  <Channel Number="7">nothing01</Channel>
+  <Channel Number="8">nothing02</Channel>
+  <Channel Number="9">nothing03</Channel>
+  <Channel Number="10">nothing04</Channel>
+  <Channel Number="11">Image and focus speed</Channel>
+ </Mode>
+ <Mode Name="mode 1, with mirror">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Lamp On/Off, Reset</Channel>
+  <Channel Number="1">Intensity</Channel>
+  <Channel Number="2">Image selection</Channel>
+  <Channel Number="3">Image rotation</Channel>
+  <Channel Number="4">Focus</Channel>
+  <Channel Number="5">MM Pan</Channel>
+  <Channel Number="6">MM Tilt</Channel>
+  <Channel Number="7">MM Pan/Tilt Speed</Channel>
+  <Channel Number="8">Image and focus speed</Channel>
+ </Mode>
+ <Mode Name="mode 2, with mirror">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Lamp On/Off, Reset</Channel>
+  <Channel Number="1">Intensity</Channel>
+  <Channel Number="2">Image selection</Channel>
+  <Channel Number="3">Image rotation</Channel>
+  <Channel Number="4">Image rotation, fine</Channel>
+  <Channel Number="5">Focus</Channel>
+  <Channel Number="6">MM Pan</Channel>
+  <Channel Number="7">MM Pan fine</Channel>
+  <Channel Number="8">MM Tilt</Channel>
+  <Channel Number="9">MM Tilt fine</Channel>
+  <Channel Number="10">MM Pan/Tilt Speed</Channel>
+  <Channel Number="11">Image and focus speed</Channel>
+ </Mode>
+</FixtureDefinition>

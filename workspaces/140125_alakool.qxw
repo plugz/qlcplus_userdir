@@ -1,0 +1,395 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>plug,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Input Plugin="MIDI" Line="0" Profile="None"/>
+    <Output Plugin="DMX USB" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>ProPAR 56RGB</Model>
+   <Mode>ParPRO 56RGB</Mode>
+   <ID>0</ID>
+   <Name>ADJ #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>ProPAR 56RGB</Model>
+   <Mode>ParPRO 56RGB</Mode>
+   <ID>1</ID>
+   <Name>ADJ #2</Name>
+   <Universe>0</Universe>
+   <Address>7</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>ProPAR 56RGB</Model>
+   <Mode>ParPRO 56RGB</Mode>
+   <ID>2</ID>
+   <Name>ADJ #3</Name>
+   <Universe>0</Universe>
+   <Address>14</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>ProPAR 56RGB</Model>
+   <Mode>ParPRO 56RGB</Mode>
+   <ID>3</ID>
+   <Name>ADJ #4</Name>
+   <Universe>0</Universe>
+   <Address>21</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>4</ID>
+   <Name>CVT #1</Name>
+   <Universe>0</Universe>
+   <Address>28</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>5</ID>
+   <Name>CVT #2</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>6</ID>
+   <Name>BAR 1 #1</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>7</ID>
+   <Name>BAR 1 #2</Name>
+   <Universe>0</Universe>
+   <Address>45</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>8</ID>
+   <Name>BAR 1 #3</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>9</ID>
+   <Name>BAR 1 #4</Name>
+   <Universe>0</Universe>
+   <Address>51</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>10</ID>
+   <Name>BAR 1 #5</Name>
+   <Universe>0</Universe>
+   <Address>54</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>11</ID>
+   <Name>BAR 1 #6</Name>
+   <Universe>0</Universe>
+   <Address>57</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>12</ID>
+   <Name>BAR 1 #7</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>13</ID>
+   <Name>BAR 1 #8</Name>
+   <Universe>0</Universe>
+   <Address>63</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>shotek</Manufacturer>
+   <Model>controlbar</Model>
+   <Mode>mode</Mode>
+   <ID>14</ID>
+   <Name>BAR 1 CTRL</Name>
+   <Universe>0</Universe>
+   <Address>66</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>15</ID>
+   <Name>BAR 2 #1</Name>
+   <Universe>0</Universe>
+   <Address>68</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>16</ID>
+   <Name>BAR 2 #2</Name>
+   <Universe>0</Universe>
+   <Address>71</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>17</ID>
+   <Name>BAR 2 #3</Name>
+   <Universe>0</Universe>
+   <Address>74</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>18</ID>
+   <Name>BAR 2 #4</Name>
+   <Universe>0</Universe>
+   <Address>77</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>19</ID>
+   <Name>BAR 2 #5</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>20</ID>
+   <Name>BAR 2 #6</Name>
+   <Universe>0</Universe>
+   <Address>83</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>21</ID>
+   <Name>BAR 2 #7</Name>
+   <Universe>0</Universe>
+   <Address>86</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>22</ID>
+   <Name>BAR 2 #8</Name>
+   <Universe>0</Universe>
+   <Address>89</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>shotek</Manufacturer>
+   <Model>controlbar</Model>
+   <Mode>mode</Mode>
+   <ID>23</ID>
+   <Name>controlbar</Name>
+   <Universe>0</Universe>
+   <Address>92</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>ALL HLINE</Name>
+   <Size X="22" Y="1"/>
+   <Head Fixture="4" X="0" Y="0">0</Head>
+   <Head Fixture="5" X="21" Y="0">0</Head>
+   <Head Fixture="19" X="17" Y="0">0</Head>
+   <Head Fixture="15" X="13" Y="0">0</Head>
+   <Head Fixture="0" X="9" Y="0">0</Head>
+   <Head Fixture="10" X="5" Y="0">0</Head>
+   <Head Fixture="6" X="1" Y="0">0</Head>
+   <Head Fixture="20" X="18" Y="0">0</Head>
+   <Head Fixture="16" X="14" Y="0">0</Head>
+   <Head Fixture="1" X="10" Y="0">0</Head>
+   <Head Fixture="11" X="6" Y="0">0</Head>
+   <Head Fixture="7" X="2" Y="0">0</Head>
+   <Head Fixture="21" X="19" Y="0">0</Head>
+   <Head Fixture="17" X="15" Y="0">0</Head>
+   <Head Fixture="2" X="11" Y="0">0</Head>
+   <Head Fixture="12" X="7" Y="0">0</Head>
+   <Head Fixture="8" X="3" Y="0">0</Head>
+   <Head Fixture="22" X="20" Y="0">0</Head>
+   <Head Fixture="18" X="16" Y="0">0</Head>
+   <Head Fixture="3" X="12" Y="0">0</Head>
+   <Head Fixture="13" X="8" Y="0">0</Head>
+   <Head Fixture="9" X="4" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>ALL 2COL</Name>
+   <Size X="2" Y="11"/>
+   <Head Fixture="4" X="0" Y="0">0</Head>
+   <Head Fixture="6" X="0" Y="1">0</Head>
+   <Head Fixture="7" X="0" Y="2">0</Head>
+   <Head Fixture="8" X="0" Y="3">0</Head>
+   <Head Fixture="9" X="0" Y="4">0</Head>
+   <Head Fixture="10" X="0" Y="5">0</Head>
+   <Head Fixture="11" X="0" Y="6">0</Head>
+   <Head Fixture="12" X="0" Y="7">0</Head>
+   <Head Fixture="13" X="0" Y="8">0</Head>
+   <Head Fixture="5" X="1" Y="0">0</Head>
+   <Head Fixture="0" X="0" Y="9">0</Head>
+   <Head Fixture="15" X="1" Y="1">0</Head>
+   <Head Fixture="2" X="0" Y="10">0</Head>
+   <Head Fixture="16" X="1" Y="2">0</Head>
+   <Head Fixture="17" X="1" Y="3">0</Head>
+   <Head Fixture="18" X="1" Y="4">0</Head>
+   <Head Fixture="19" X="1" Y="5">0</Head>
+   <Head Fixture="20" X="1" Y="6">0</Head>
+   <Head Fixture="21" X="1" Y="7">0</Head>
+   <Head Fixture="22" X="1" Y="8">0</Head>
+   <Head Fixture="1" X="1" Y="9">0</Head>
+   <Head Fixture="3" X="1" Y="10">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup Name="DIM" ID="0" Value="0">0,6,1,6,2,6,3,6,4,6,5,6,14,1,23,1</ChannelsGroup>
+  <ChannelsGroup Name="STROBE" ID="1" Value="0">0,4,1,4,2,4,3,4,4,4,5,4,14,0,23,0</ChannelsGroup>
+  <Function Type="RGBMatrix" Name="New RGB Matrix 0" ID="0">
+   <Speed Duration="110" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>4294967295</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="ALL HLINE" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,6,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,6,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0,6,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0,6,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,6,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,6,0</FixtureVal>
+   <FixtureVal ID="6">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="16">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="17">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="18">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="19">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="20">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="21">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="22">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="New RGB Matrix 0" ID="2">
+   <Speed Duration="500" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="PerStep" FadeOut="Default" FadeIn="Default"/>
+   <Sequence StartTime="0" BoundScene="1" Color="#556b80"/>
+   <Step Values="72" Number="0" FadeOut="0" FadeIn="0" Hold="500">4,0,255,4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="1" FadeOut="0" FadeIn="0" Hold="500">4,6,255,6,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="2" FadeOut="0" FadeIn="0" Hold="500">4,6,255,7,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="3" FadeOut="0" FadeIn="0" Hold="500">4,6,255,8,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="4" FadeOut="0" FadeIn="0" Hold="500">4,6,255,9,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="5" FadeOut="0" FadeIn="0" Hold="500">4,6,255,10,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="6" FadeOut="0" FadeIn="0" Hold="500">4,6,255,11,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="7" FadeOut="0" FadeIn="0" Hold="500">4,6,255,12,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="8" FadeOut="0" FadeIn="0" Hold="500">4,6,255,13,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="9" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,0,255,0,6,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="10" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,0,255,1,6,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="11" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,0,255,2,6,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="12" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,0,255,3,6,255,5,6,255</Step>
+   <Step Values="72" Number="13" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,15,0,255,5,6,255</Step>
+   <Step Values="72" Number="14" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,16,0,255,5,6,255</Step>
+   <Step Values="72" Number="15" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,17,0,255,5,6,255</Step>
+   <Step Values="72" Number="16" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,18,0,255,5,6,255</Step>
+   <Step Values="72" Number="17" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,19,0,255,5,6,255</Step>
+   <Step Values="72" Number="18" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,20,0,255,5,6,255</Step>
+   <Step Values="72" Number="19" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,21,0,255,5,6,255</Step>
+   <Step Values="72" Number="20" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,22,0,255,5,6,255</Step>
+   <Step Values="72" Number="21" FadeOut="0" FadeIn="0" Hold="500">4,6,255,0,6,255,1,6,255,2,6,255,3,6,255,5,0,255,5,6,255</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

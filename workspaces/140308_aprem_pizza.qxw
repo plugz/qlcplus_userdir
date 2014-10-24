@@ -1,0 +1,3215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>plug,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Input Plugin="MIDI" Line="1" Profile="KORG nanoKONTROL2"/>
+    <Output Plugin="DMX USB" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>0</ID>
+   <Name>Chauvet #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>1</ID>
+   <Name>Chauvet #2</Name>
+   <Universe>0</Universe>
+   <Address>7</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>2</ID>
+   <Name>Chauvet #3</Name>
+   <Universe>0</Universe>
+   <Address>14</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>3</ID>
+   <Name>Chauvet #4</Name>
+   <Universe>0</Universe>
+   <Address>21</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>4</ID>
+   <Name>ADJ #1</Name>
+   <Universe>0</Universe>
+   <Address>28</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>5</ID>
+   <Name>ADJ #2</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>6</ID>
+   <Name>ADJ #3</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>7</ID>
+   <Name>ADJ #4</Name>
+   <Universe>0</Universe>
+   <Address>49</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ghost</Manufacturer>
+   <Model>XS 70</Model>
+   <Mode>13ch</Mode>
+   <ID>8</ID>
+   <Name>XS 70 #1</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ghost</Manufacturer>
+   <Model>XS 70</Model>
+   <Mode>13ch</Mode>
+   <ID>9</ID>
+   <Name>XS 70 #2</Name>
+   <Universe>0</Universe>
+   <Address>69</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Dancefloor</Name>
+   <Size X="4" Y="2"/>
+   <Head Fixture="4" X="0" Y="0">0</Head>
+   <Head Fixture="1" X="1" Y="0">0</Head>
+   <Head Fixture="6" X="0" Y="1">0</Head>
+   <Head Fixture="2" X="2" Y="0">0</Head>
+   <Head Fixture="8" X="1" Y="1">0</Head>
+   <Head Fixture="5" X="3" Y="0">0</Head>
+   <Head Fixture="9" X="2" Y="1">0</Head>
+   <Head Fixture="7" X="3" Y="1">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>All</Name>
+   <Size X="4" Y="3"/>
+   <Head Fixture="0" X="0" Y="0">0</Head>
+   <Head Fixture="4" X="0" Y="1">0</Head>
+   <Head Fixture="1" X="1" Y="1">0</Head>
+   <Head Fixture="6" X="0" Y="2">0</Head>
+   <Head Fixture="3" X="3" Y="0">0</Head>
+   <Head Fixture="2" X="2" Y="1">0</Head>
+   <Head Fixture="8" X="1" Y="2">0</Head>
+   <Head Fixture="5" X="3" Y="1">0</Head>
+   <Head Fixture="9" X="2" Y="2">0</Head>
+   <Head Fixture="7" X="3" Y="2">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>ADJ</Name>
+   <Size X="2" Y="2"/>
+   <Head Fixture="4" X="0" Y="0">0</Head>
+   <Head Fixture="5" X="1" Y="0">0</Head>
+   <Head Fixture="6" X="0" Y="1">0</Head>
+   <Head Fixture="7" X="1" Y="1">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>Ghost</Name>
+   <Size X="2" Y="1"/>
+   <Head Fixture="8" X="0" Y="0">0</Head>
+   <Head Fixture="9" X="1" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>DJ</Name>
+   <Size X="2" Y="1"/>
+   <Head Fixture="0" X="0" Y="0">0</Head>
+   <Head Fixture="3" X="1" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="5">
+   <Name>Dancefloor Line</Name>
+   <Size X="8" Y="1"/>
+   <Head Fixture="4" X="0" Y="0">0</Head>
+   <Head Fixture="1" X="1" Y="0">0</Head>
+   <Head Fixture="2" X="2" Y="0">0</Head>
+   <Head Fixture="5" X="3" Y="0">0</Head>
+   <Head Fixture="7" X="4" Y="0">0</Head>
+   <Head Fixture="9" X="5" Y="0">0</Head>
+   <Head Fixture="8" X="6" Y="0">0</Head>
+   <Head Fixture="6" X="7" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>DF chauvet</Name>
+   <Size X="2" Y="1"/>
+   <Head Fixture="1" X="0" Y="0">0</Head>
+   <Head Fixture="2" X="1" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="7">
+   <Name>DF Chauvet Ghost</Name>
+   <Size X="2" Y="2"/>
+   <Head Fixture="1" X="0" Y="0">0</Head>
+   <Head Fixture="2" X="1" Y="0">0</Head>
+   <Head Fixture="8" X="0" Y="1">0</Head>
+   <Head Fixture="9" X="1" Y="1">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup Name="All Dim" ID="18" Value="0">0,6,1,6,2,6,3,6,4,6,5,6,6,6,7,6</ChannelsGroup>
+  <ChannelsGroup Name="All Red" ID="0" Value="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,6,9,6</ChannelsGroup>
+  <ChannelsGroup Name="All Green" ID="1" Value="0">0,1,1,1,2,1,3,1,4,1,5,1,6,1,7,1,8,7,9,7</ChannelsGroup>
+  <ChannelsGroup Name="All Blue" ID="2" Value="0">0,2,1,2,2,2,3,2,4,2,5,2,6,2,7,2,8,8,9,8</ChannelsGroup>
+  <ChannelsGroup Name="Chauvet Red" ID="3" Value="0">0,0,1,0,2,0,3,0</ChannelsGroup>
+  <ChannelsGroup Name="Chauvet Green" ID="4" Value="0">0,1,1,1,2,1,3,1</ChannelsGroup>
+  <ChannelsGroup Name="Chauvet Blue" ID="5" Value="0">0,2,1,2,2,2,3,2</ChannelsGroup>
+  <ChannelsGroup Name="Ghost Red" ID="6" Value="0">8,6,9,6</ChannelsGroup>
+  <ChannelsGroup Name="Ghost Green" ID="7" Value="0">8,7,9,7</ChannelsGroup>
+  <ChannelsGroup Name="Ghost Blue" ID="8" Value="0">8,8,9,8</ChannelsGroup>
+  <ChannelsGroup Name="Ghost White" ID="19" Value="0">8,9,9,9</ChannelsGroup>
+  <ChannelsGroup Name="Adj Red" ID="9" Value="0">4,0,5,0,6,0,7,0</ChannelsGroup>
+  <ChannelsGroup Name="Adj Green" ID="10" Value="0">4,1,5,1,6,1,7,1</ChannelsGroup>
+  <ChannelsGroup Name="Adj Blue" ID="11" Value="0">4,2,5,2,6,2,7,2</ChannelsGroup>
+  <ChannelsGroup Name="Scene Red" ID="12" Value="0">0,0,1,0,2,0,3,0,6,0,7,0</ChannelsGroup>
+  <ChannelsGroup Name="Scene Green" ID="13" Value="0">0,1,1,1,2,1,3,1,6,1,7,1</ChannelsGroup>
+  <ChannelsGroup Name="Scene Blue" ID="14" Value="0">0,2,1,2,2,2,3,2,6,2,7,2</ChannelsGroup>
+  <ChannelsGroup Name="Dancefloor Red" ID="15" Value="0">1,0,2,0,4,0,5,0,6,0,7,0,8,6,9,6</ChannelsGroup>
+  <ChannelsGroup Name="Dancefloor Green" ID="16" Value="0">1,1,2,1,4,1,5,1,6,1,7,1,8,7,9,7</ChannelsGroup>
+  <ChannelsGroup Name="Dancefloor Blue" ID="17" Value="0">1,2,2,2,4,2,5,2,6,2,7,2,8,8,9,8</ChannelsGroup>
+  <ChannelsGroup Name="Ghost DimStrobe" ID="20" Value="0">8,5,9,5</ChannelsGroup>
+  <ChannelsGroup Name="DancefloorAdj Strobe" ID="21" Value="0">4,4,5,4</ChannelsGroup>
+  <ChannelsGroup Name="Ghost Pan" ID="22" Value="0">8,0,9,0</ChannelsGroup>
+  <ChannelsGroup Name="Ghost Tilt" ID="23" Value="0">8,2,9,2</ChannelsGroup>
+  <Function Type="RGBMatrix" Name="Dancefloor Blue Fill Unfill" ID="0">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <EndColor>4278190335</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Blue Fill Unfill rev" ID="1">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <EndColor>4278190335</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Cyan Fill Unfill rev" ID="2">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <EndColor>4278255615</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Cyan Fill Unfill" ID="3">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <EndColor>4278255615</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Green Fill Unfill rev" ID="4">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <EndColor>4278255360</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Green Fill Unfill ping pong" ID="5">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <EndColor>4278255360</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Pink Fill Unfill rev" ID="6">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <EndColor>4294902015</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Pink Fill Unfill ping pong" ID="7">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <EndColor>4294902015</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Red Fill Unfill rev" ID="8">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4294901760</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Red Fill Unfill ping pong" ID="9">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4294901760</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Yellow Fill Unfill rev" ID="10">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <EndColor>4294967040</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Yellow Fill Unfill ping pong" ID="11">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <EndColor>4294967040</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="Ghost Dancefloor" ID="12">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>22,23</ChannelGroups>
+   <FixtureVal ID="8">0,127,2,127</FixtureVal>
+   <FixtureVal ID="9">0,127,2,127</FixtureVal>
+  </Function>
+  <Function Type="EFX" Name="Snake Left Right" ID="13">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>86</Offset>
+    <Frequency>9</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="FrontBackTwist Cross" ID="14">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>42</Width>
+   <Height>100</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>155</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="FrontBackTwist Follow" ID="15">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>42</Width>
+   <Height>100</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>155</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="LeftRightTwist Follow" ID="16">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>85</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Left Right" ID="17">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>0</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="LeftRightTwist Cross" ID="18">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>85</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Snake Left Right Follow" ID="19">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>86</Offset>
+    <Frequency>9</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Eight Cross" ID="20">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>64</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Front Back" ID="21">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>100</Width>
+   <Height>0</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>155</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EightSquare" ID="22">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Square</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EightSquareStrong" ID="23">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="7000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareStrong</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Left Right Cross" ID="24">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>0</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Eight Follow" ID="25">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>60</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>64</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EightEight Cross" ID="26">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Eight</Algorithm>
+   <Width>48</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EightEight Follow" ID="27">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>30</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Eight</Algorithm>
+   <Width>48</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EigthWithPause" ID="28">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="6000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>127</Width>
+   <Height>64</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Snake Left Right Cross" ID="29">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>86</Offset>
+    <Frequency>9</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Snake Up Down Cross" ID="30">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>100</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>9</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>150</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Snake Up Down Follow" ID="31">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>100</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>9</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>150</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EightSquare Cross" ID="32">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Square</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Red Fill Unfill" ID="33">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4294901760</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="EightSquare Follow" ID="34">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Square</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Cyan Fill Unfill ping pong" ID="35">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <EndColor>4278255615</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Pink Fill Unfill" ID="36">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <EndColor>4294902015</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Yellow Fill Unfill" ID="37">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <EndColor>4294967040</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Blue Fill Unfill ping pong" ID="38">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <EndColor>4278190335</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="Front Back Cross" ID="39">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>100</Width>
+   <Height>0</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>155</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EigthWithPause Cross" ID="40">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>127</Width>
+   <Height>64</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EigthWithPause Follow" ID="41">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>45</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>127</Width>
+   <Height>64</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Green Fill Unfill" ID="42">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <EndColor>4278255360</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="EightSquareStrong Cross" ID="43">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="7000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareStrong</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="EightSquareStrong Follow" ID="44">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>40</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="7000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareStrong</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Up Down Slow Rot Follow" ID="45">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>130</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="24000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>13</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Up Down Slow Rot Cross" ID="46">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="24000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>13</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="Scene" Name="Ghost Zero" ID="47">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>22,23</ChannelGroups>
+   <FixtureVal ID="8">0,0,2,0</FixtureVal>
+   <FixtureVal ID="9">0,0,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Ghost Bar" ID="48">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>22,23</ChannelGroups>
+   <FixtureVal ID="8">0,0,2,255</FixtureVal>
+   <FixtureVal ID="9">0,0,2,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="DJ Red" ID="49">
+   <Speed Duration="1050" FadeOut="1010" FadeIn="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="DJ Green" ID="50">
+   <Speed Duration="1050" FadeOut="1010" FadeIn="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="DJ Cyan" ID="51">
+   <Speed Duration="1050" FadeOut="1010" FadeIn="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="DJ Pink" ID="52">
+   <Speed Duration="1050" FadeOut="1010" FadeIn="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="Front Back Follow" ID="53">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>60</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>100</Width>
+   <Height>0</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>155</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Left Right Follow" ID="54">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>60</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>90</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>0</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Eight" ID="55">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>64</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="DJ Blue" ID="56">
+   <Speed Duration="1050" FadeOut="1010" FadeIn="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="DJ Yellow" ID="57">
+   <Speed Duration="1050" FadeOut="1010" FadeIn="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="EightEight" ID="58">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Eight</Algorithm>
+   <Width>48</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Rand" ID="59">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White VNR Up Down" ID="60">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Rand Col" ID="61">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Column</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White VNR Center Exte" ID="62">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Squares From Center</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="FrontBackTwist" ID="63">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>42</Width>
+   <Height>100</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>155</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White VNR Center Exte Smooth" ID="64">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns From Center</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White LR" ID="65">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White LR rev" ID="66">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White LR ping pong" ID="67">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Circle Double" ID="68">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Rows</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Circle Double rev" ID="69">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Rows</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Blue Fill Col Rand" ID="70">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <EndColor>4278190335</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Red Fill Col Rand" ID="71">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4294901760</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="Up Down Slow Rot" ID="72">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="24000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>13</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="Scene" Name="Ghost Poele" ID="73">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>22,23</ChannelGroups>
+   <FixtureVal ID="8">0,40,2,0</FixtureVal>
+   <FixtureVal ID="9">0,40,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Dancefloor Red" ID="74">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>15</ChannelGroups>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="6">0,255</FixtureVal>
+   <FixtureVal ID="7">0,255</FixtureVal>
+   <FixtureVal ID="8">6,255</FixtureVal>
+   <FixtureVal ID="9">6,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Dancefloor Green" ID="75">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>16</ChannelGroups>
+   <FixtureVal ID="1">1,255</FixtureVal>
+   <FixtureVal ID="2">1,255</FixtureVal>
+   <FixtureVal ID="4">1,255</FixtureVal>
+   <FixtureVal ID="5">1,255</FixtureVal>
+   <FixtureVal ID="6">1,255</FixtureVal>
+   <FixtureVal ID="7">1,255</FixtureVal>
+   <FixtureVal ID="8">7,255</FixtureVal>
+   <FixtureVal ID="9">7,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Cyan Fill Col Rand" ID="76">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Green Fill Col Rand" ID="77">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Pink Fill Col Rand" ID="78">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Yellow Fill Col Rand" ID="79">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Random Fill Column</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Yellow Fill Unfill Up Down" ID="80">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Rows</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Green Fill Unfill Up Down" ID="81">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Rows</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="LeftRightTwist" ID="82">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4200" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>42</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>85</Offset>
+    <Frequency>1</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>5</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="Snake Up Down" ID="83">
+   <Fixture>
+    <ID>8</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>9</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>100</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>9</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>150</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Pink Fill Unfill Up Down" ID="84">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Rows</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Blue Fill Unfill Up Down" ID="85">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Rows</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Red Fill Unfill Up Down" ID="86">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Rows</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor Cyan Fill Unfill Up Down" ID="87">
+   <Speed Duration="420" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Rows</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="Nothing" ID="88">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="-1"/>
+  </Function>
+  <Function Type="Scene" Name="Dancefloor Blue" ID="89">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>17</ChannelGroups>
+   <FixtureVal ID="1">2,255</FixtureVal>
+   <FixtureVal ID="2">2,255</FixtureVal>
+   <FixtureVal ID="4">2,255</FixtureVal>
+   <FixtureVal ID="5">2,255</FixtureVal>
+   <FixtureVal ID="6">2,255</FixtureVal>
+   <FixtureVal ID="7">2,255</FixtureVal>
+   <FixtureVal ID="8">8,255</FixtureVal>
+   <FixtureVal ID="9">8,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Circle rev" ID="90">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>5</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Circle rev LowInt" ID="91">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4279374354</MonoColor>
+   <FixtureGroup>5</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Circle Double LowInt" ID="92">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Rows</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Circle Double rev LowInt" ID="93">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Rows</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White LR LowInt" ID="94">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White LR ping pong LowInt" ID="95">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White LR rev LowInt" ID="96">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Rand LowInt" ID="97">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Rand Col LowInt" ID="98">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Column</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White VNR Center Exte LowInt" ID="99">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Squares From Center</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White VNR Center Exte Smooth LowInt" ID="100">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill Columns From Center</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White VNR Up Down LowInt" ID="101">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4280163870</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor Blue" ID="102">
+   <Speed Duration="40000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">70</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">0</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">38</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">1</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">85</Step>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor Cyan" ID="103">
+   <Speed Duration="40000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="40000">76</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="40000">3</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="40000">35</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="40000">2</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="40000">87</Step>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor Green" ID="104">
+   <Speed Duration="40000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="40000">77</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="40000">42</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="40000">5</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="40000">4</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="40000">81</Step>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor Pink" ID="105">
+   <Speed Duration="40000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="40000">78</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="40000">36</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="40000">7</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="40000">6</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="40000">84</Step>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor Red" ID="106">
+   <Speed Duration="40000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="40000">71</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="40000">33</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="40000">9</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="40000">8</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="40000">86</Step>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor Yellow" ID="107">
+   <Speed Duration="40000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="40000">79</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="40000">37</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="40000">11</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="40000">10</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="40000">80</Step>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor White VNR" ID="108">
+   <Speed Duration="8000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">90</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">68</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">69</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">93</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">65</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">67</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">66</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">96</Step>
+   <Step Number="8" FadeOut="0" FadeIn="0" Hold="0">59</Step>
+   <Step Number="9" FadeOut="0" FadeIn="0" Hold="0">98</Step>
+   <Step Number="10" FadeOut="0" FadeIn="0" Hold="0">62</Step>
+   <Step Number="11" FadeOut="0" FadeIn="0" Hold="0">99</Step>
+   <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">64</Step>
+   <Step Number="13" FadeOut="0" FadeIn="0" Hold="0">88</Step>
+   <Step Number="14" FadeOut="0" FadeIn="0" Hold="0">60</Step>
+  </Function>
+  <Function Type="Chaser" Name="EFXs" ID="109">
+   <Speed Duration="60000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">55</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">20</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">25</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">58</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">26</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">27</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">22</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">32</Step>
+   <Step Number="8" FadeOut="0" FadeIn="0" Hold="0">34</Step>
+   <Step Number="9" FadeOut="0" FadeIn="0" Hold="0">23</Step>
+   <Step Number="10" FadeOut="0" FadeIn="0" Hold="0">43</Step>
+   <Step Number="11" FadeOut="0" FadeIn="0" Hold="0">44</Step>
+   <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">28</Step>
+   <Step Number="13" FadeOut="0" FadeIn="0" Hold="0">40</Step>
+   <Step Number="14" FadeOut="0" FadeIn="0" Hold="0">41</Step>
+   <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">21</Step>
+   <Step Number="16" FadeOut="0" FadeIn="0" Hold="0">39</Step>
+   <Step Number="17" FadeOut="0" FadeIn="0" Hold="0">53</Step>
+   <Step Number="18" FadeOut="0" FadeIn="0" Hold="0">63</Step>
+   <Step Number="19" FadeOut="0" FadeIn="0" Hold="0">14</Step>
+   <Step Number="20" FadeOut="0" FadeIn="0" Hold="0">15</Step>
+   <Step Number="21" FadeOut="0" FadeIn="0" Hold="0">17</Step>
+   <Step Number="22" FadeOut="0" FadeIn="0" Hold="0">24</Step>
+   <Step Number="23" FadeOut="0" FadeIn="0" Hold="0">54</Step>
+   <Step Number="24" FadeOut="0" FadeIn="0" Hold="0">82</Step>
+   <Step Number="25" FadeOut="0" FadeIn="0" Hold="0">18</Step>
+   <Step Number="26" FadeOut="0" FadeIn="0" Hold="0">16</Step>
+   <Step Number="27" FadeOut="0" FadeIn="0" Hold="0">13</Step>
+   <Step Number="28" FadeOut="0" FadeIn="0" Hold="0">29</Step>
+   <Step Number="29" FadeOut="0" FadeIn="0" Hold="0">19</Step>
+   <Step Number="30" FadeOut="0" FadeIn="0" Hold="0">83</Step>
+   <Step Number="31" FadeOut="0" FadeIn="0" Hold="0">30</Step>
+   <Step Number="32" FadeOut="0" FadeIn="0" Hold="0">31</Step>
+   <Step Number="33" FadeOut="0" FadeIn="0" Hold="0">72</Step>
+   <Step Number="34" FadeOut="0" FadeIn="0" Hold="0">46</Step>
+   <Step Number="35" FadeOut="0" FadeIn="0" Hold="0">45</Step>
+  </Function>
+  <Function Type="Collection" Name="Blue" ID="110">
+   <Step Number="0">56</Step>
+   <Step Number="1">102</Step>
+  </Function>
+  <Function Type="Collection" Name="Yellow" ID="111">
+   <Step Number="0">57</Step>
+   <Step Number="1">107</Step>
+  </Function>
+  <Function Type="Collection" Name="Red" ID="112">
+   <Step Number="0">49</Step>
+   <Step Number="1">106</Step>
+  </Function>
+  <Function Type="Collection" Name="Pink" ID="113">
+   <Step Number="0">52</Step>
+   <Step Number="1">105</Step>
+  </Function>
+  <Function Type="Collection" Name="Green" ID="114">
+   <Step Number="0">50</Step>
+   <Step Number="1">104</Step>
+  </Function>
+  <Function Type="Collection" Name="Cyan" ID="115">
+   <Step Number="0">51</Step>
+   <Step Number="1">103</Step>
+  </Function>
+  <Function Type="Chaser" Name="allcolors fromblue" ID="116">
+   <Speed Duration="200000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">110</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">115</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">114</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">111</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">112</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">113</Step>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Ghost Alt" ID="117">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>3</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Chauvet Alt" ID="118">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Chauvet Ghost Rand" ID="119">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Single Random</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>7</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Chauvet Ghost Up Down" ID="120">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>7</FixtureGroup>
+  </Function>
+  <Function Type="Chaser" Name="Dancefloor White ppr" ID="121">
+   <Speed Duration="8000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">118</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">119</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">99</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">92</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">91</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">120</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">117</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">94</Step>
+   <Step Number="8" FadeOut="0" FadeIn="0" Hold="0">95</Step>
+   <Step Number="9" FadeOut="0" FadeIn="0" Hold="0">100</Step>
+   <Step Number="10" FadeOut="0" FadeIn="0" Hold="0">93</Step>
+   <Step Number="11" FadeOut="0" FadeIn="0" Hold="0">96</Step>
+   <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">98</Step>
+   <Step Number="13" FadeOut="0" FadeIn="0" Hold="0">97</Step>
+   <Step Number="14" FadeOut="0" FadeIn="0" Hold="0">101</Step>
+   <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">122</Step>
+  </Function>
+  <Function Type="RGBMatrix" Name="Dancefloor White Chauvet Ghost Left Right" ID="122">
+   <Speed Duration="120" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>7</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="Ghost Cross" ID="123">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>22,23</ChannelGroups>
+   <FixtureVal ID="8">0,0,2,48</FixtureVal>
+   <FixtureVal ID="9">0,0,2,207</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="allcolors fromcyan" ID="129">
+   <Speed Duration="200000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">115</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">114</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">111</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">112</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">113</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">110</Step>
+  </Function>
+  <Function Type="Chaser" Name="allcolors fromgreen" ID="130">
+   <Speed Duration="200000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">114</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">111</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">112</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">113</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">110</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">115</Step>
+  </Function>
+  <Function Type="Chaser" Name="allcolors fromyellow" ID="131">
+   <Speed Duration="200000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">111</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">112</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">113</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">110</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">115</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">114</Step>
+  </Function>
+  <Function Type="Chaser" Name="allcolors fromred" ID="132">
+   <Speed Duration="200000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">112</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">113</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">110</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">115</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">114</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">111</Step>
+  </Function>
+  <Function Type="Chaser" Name="allcolors frompink" ID="133">
+   <Speed Duration="200000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">113</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">110</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">115</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">114</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">111</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">112</Step>
+  </Function>
+  <Monitor DisplayMode="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame ID="7" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="500" X="700" Y="0" Height="220" Visible="True"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Slider WidgetStyle="Slider" ID="8" Caption="Slider 8" InvertedAppearance="false">
+     <WindowState Width="60" X="10" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="9" Caption="Slider 9" InvertedAppearance="false">
+     <WindowState Width="60" X="70" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="10" Caption="Slider 10" InvertedAppearance="false">
+     <WindowState Width="60" X="130" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="11" Caption="Slider 11" InvertedAppearance="false">
+     <WindowState Width="60" X="190" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="12" Caption="Slider 12" InvertedAppearance="false">
+     <WindowState Width="60" X="250" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="13" Caption="Slider 13" InvertedAppearance="false">
+     <WindowState Width="60" X="310" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="14" Caption="dj white" InvertedAppearance="false">
+     <WindowState Width="60" X="370" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="22"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="44">
+      <Channel Fixture="0">0</Channel>
+      <Channel Fixture="0">1</Channel>
+      <Channel Fixture="0">2</Channel>
+      <Channel Fixture="0">6</Channel>
+      <Channel Fixture="3">0</Channel>
+      <Channel Fixture="3">1</Channel>
+      <Channel Fixture="3">2</Channel>
+      <Channel Fixture="3">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="15" Caption="masta dim" InvertedAppearance="false">
+     <WindowState Width="60" X="430" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="23"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="255">
+      <Channel Fixture="0">6</Channel>
+      <Channel Fixture="1">6</Channel>
+      <Channel Fixture="2">6</Channel>
+      <Channel Fixture="3">6</Channel>
+      <Channel Fixture="4">6</Channel>
+      <Channel Fixture="5">6</Channel>
+      <Channel Fixture="6">6</Channel>
+      <Channel Fixture="7">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="16" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="500" X="700" Y="400" Height="220" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Slider WidgetStyle="Slider" ID="19" Caption="Slider 19" InvertedAppearance="false">
+     <WindowState Width="60" X="130" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="20" Caption="Slider 20" InvertedAppearance="false">
+     <WindowState Width="60" X="190" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="21" Caption="df white" InvertedAppearance="false">
+     <WindowState Width="60" X="250" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="4"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="1">0</Channel>
+      <Channel Fixture="1">1</Channel>
+      <Channel Fixture="1">2</Channel>
+      <Channel Fixture="2">0</Channel>
+      <Channel Fixture="2">1</Channel>
+      <Channel Fixture="2">2</Channel>
+      <Channel Fixture="4">0</Channel>
+      <Channel Fixture="4">1</Channel>
+      <Channel Fixture="4">2</Channel>
+      <Channel Fixture="5">0</Channel>
+      <Channel Fixture="5">1</Channel>
+      <Channel Fixture="5">2</Channel>
+      <Channel Fixture="6">0</Channel>
+      <Channel Fixture="6">1</Channel>
+      <Channel Fixture="6">2</Channel>
+      <Channel Fixture="7">0</Channel>
+      <Channel Fixture="7">1</Channel>
+      <Channel Fixture="7">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="22" Caption="df strobe" InvertedAppearance="false">
+     <WindowState Width="60" X="310" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="5"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="1">4</Channel>
+      <Channel Fixture="2">4</Channel>
+      <Channel Fixture="4">4</Channel>
+      <Channel Fixture="5">4</Channel>
+      <Channel Fixture="6">4</Channel>
+      <Channel Fixture="7">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="23" Caption="ghost white" InvertedAppearance="false">
+     <WindowState Width="60" X="370" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="6"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="8">6</Channel>
+      <Channel Fixture="8">7</Channel>
+      <Channel Fixture="8">8</Channel>
+      <Channel Fixture="8">9</Channel>
+      <Channel Fixture="9">6</Channel>
+      <Channel Fixture="9">7</Channel>
+      <Channel Fixture="9">8</Channel>
+      <Channel Fixture="9">9</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="24" Caption="ghost strobe" InvertedAppearance="false">
+     <WindowState Width="60" X="430" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="7"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+     <Level HighLimit="239" LowLimit="134" Value="134">
+      <Channel Fixture="8">5</Channel>
+      <Channel Fixture="9">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <SpeedDial SpeedTypes="4" ID="83" Caption="DF Col">
+     <WindowState Width="60" X="10" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <AbsoluteValue Minimum="0" Maximum="3000">
+      <Input Universe="0" Channel="0"/>
+     </AbsoluteValue>
+     <Tap>
+      <Input Universe="0" Channel="64"/>
+     </Tap>
+     <Function>0</Function>
+     <Function>37</Function>
+     <Function>1</Function>
+     <Function>38</Function>
+     <Function>2</Function>
+     <Function>76</Function>
+     <Function>3</Function>
+     <Function>77</Function>
+     <Function>4</Function>
+     <Function>78</Function>
+     <Function>5</Function>
+     <Function>42</Function>
+     <Function>79</Function>
+     <Function>6</Function>
+     <Function>80</Function>
+     <Function>7</Function>
+     <Function>81</Function>
+     <Function>8</Function>
+     <Function>9</Function>
+     <Function>10</Function>
+     <Function>84</Function>
+     <Function>11</Function>
+     <Function>85</Function>
+     <Function>86</Function>
+     <Function>87</Function>
+     <Function>33</Function>
+     <Function>70</Function>
+     <Function>71</Function>
+     <Function>35</Function>
+     <Function>36</Function>
+    </SpeedDial>
+    <SpeedDial SpeedTypes="4" ID="85" Caption="DF W">
+     <WindowState Width="60" X="70" Y="10" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <AbsoluteValue Minimum="0" Maximum="1000">
+      <Input Universe="0" Channel="1"/>
+     </AbsoluteValue>
+     <Tap>
+      <Input Universe="0" Channel="65"/>
+     </Tap>
+     <Function>117</Function>
+     <Function>118</Function>
+     <Function>119</Function>
+     <Function>120</Function>
+     <Function>122</Function>
+     <Function>90</Function>
+     <Function>91</Function>
+     <Function>92</Function>
+     <Function>93</Function>
+     <Function>94</Function>
+     <Function>95</Function>
+     <Function>59</Function>
+     <Function>96</Function>
+     <Function>60</Function>
+     <Function>97</Function>
+     <Function>61</Function>
+     <Function>98</Function>
+     <Function>62</Function>
+     <Function>99</Function>
+     <Function>100</Function>
+     <Function>64</Function>
+     <Function>101</Function>
+     <Function>65</Function>
+     <Function>66</Function>
+     <Function>67</Function>
+     <Function>68</Function>
+     <Function>69</Function>
+    </SpeedDial>
+   </Frame>
+   <SoloFrame ID="25" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="80" X="555" Y="240" Height="140" Visible="True"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="26" Caption="Dancefloor White ppr">
+     <Function ID="121"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="62"/>
+     <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="27" Caption="Dancefloor White VNR">
+     <Function ID="108"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="45"/>
+     <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+   <SoloFrame ID="41" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="200" X="275" Y="240" Height="140" Visible="True"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="42" Caption="EFXs">
+     <Function ID="109"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="42"/>
+     <WindowState Width="60" X="130" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="43" Caption="Ghost Bar">
+     <Function ID="48"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="43"/>
+     <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="44" Caption="Ghost Zero">
+     <Function ID="47"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="44"/>
+     <WindowState Width="60" X="70" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="45" Caption="Ghost Dancefloor">
+     <Function ID="12"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="46"/>
+     <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="46" Caption="Ghost Cross">
+     <Function ID="123"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="60"/>
+     <WindowState Width="60" X="130" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+   <Button Icon="" ID="48" Caption="Button 48">
+    <Function ID="4294967295"/>
+    <Action>Blackout</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="58"/>
+    <WindowState Width="60" X="280" Y="165" Height="60" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="49" Caption="Button 49">
+    <Function ID="4294967295"/>
+    <Action>StopAll</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="59"/>
+    <WindowState Width="60" X="350" Y="165" Height="60" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <SoloFrame ID="74" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="440" X="170" Y="50" Height="80" Visible="True"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="75" Caption="Blue">
+     <Function ID="110"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="34"/>
+     <WindowState Width="60" X="130" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="76" Caption="Cyan">
+     <Function ID="115"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="36"/>
+     <WindowState Width="60" X="250" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="77" Caption="Green">
+     <Function ID="114"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="33"/>
+     <WindowState Width="60" X="70" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="78" Caption="Pink">
+     <Function ID="113"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="37"/>
+     <WindowState Width="60" X="310" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="79" Caption="Red">
+     <Function ID="112"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="32"/>
+     <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="80" Caption="Yellow">
+     <Function ID="111"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="35"/>
+     <WindowState Width="60" X="190" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="86" Caption="allcolors">
+     <Function ID="116"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="38"/>
+     <WindowState Width="60" X="370" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+   <SoloFrame ID="100" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="380" X="700" Y="220" Height="140" Visible="True"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="101" Caption="allcolors fromblue">
+     <Function ID="116"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="50"/>
+     <WindowState Width="60" X="130" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="102" Caption="allcolors fromcyan">
+     <Function ID="129"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="52"/>
+     <WindowState Width="60" X="250" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="103" Caption="allcolors fromgreen">
+     <Function ID="130"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="49"/>
+     <WindowState Width="60" X="70" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="104" Caption="allcolors frompink">
+     <Function ID="133"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="53"/>
+     <WindowState Width="60" X="310" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="105" Caption="allcolors fromred">
+     <Function ID="132"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="48"/>
+     <WindowState Width="60" X="10" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="106" Caption="allcolors fromyellow">
+     <Function ID="131"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="51"/>
+     <WindowState Width="60" X="190" Y="70" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="107" Caption="Blue">
+     <Function ID="110"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="34"/>
+     <WindowState Width="60" X="130" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="108" Caption="Cyan">
+     <Function ID="115"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="36"/>
+     <WindowState Width="60" X="250" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="109" Caption="Green">
+     <Function ID="114"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="33"/>
+     <WindowState Width="60" X="70" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="110" Caption="Pink">
+     <Function ID="113"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="37"/>
+     <WindowState Width="60" X="310" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="111" Caption="Red">
+     <Function ID="112"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="32"/>
+     <WindowState Width="60" X="10" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="112" Caption="Yellow">
+     <Function ID="111"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="35"/>
+     <WindowState Width="60" X="190" Y="10" Height="60" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

@@ -1,0 +1,546 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.5.1</Version>
+  <Author>plug,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>0</ID>
+   <Name>sol #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>1</ID>
+   <Name>sol #2</Name>
+   <Universe>0</Universe>
+   <Address>7</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>2</ID>
+   <Name>wasser #1</Name>
+   <Universe>0</Universe>
+   <Address>14</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>3</ID>
+   <Name>wasser #2</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>4</ID>
+   <Name>douche</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>7</ID>
+   <Name>soleil #1</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>8</ID>
+   <Name>soleil #2</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>9</ID>
+   <Name>soleil #3</Name>
+   <Universe>0</Universe>
+   <Address>38</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>10</ID>
+   <Name>soleil #4</Name>
+   <Universe>0</Universe>
+   <Address>44</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>soleil</Name>
+   <Size X="2" Y="2"/>
+   <Head Fixture="7" X="0" Y="0">0</Head>
+   <Head Fixture="8" X="1" Y="0">0</Head>
+   <Head Fixture="9" X="0" Y="1">0</Head>
+   <Head Fixture="10" X="1" Y="1">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup Name="sol r" ID="8" Value="0">0,0,1,0</ChannelsGroup>
+  <ChannelsGroup Name="sol g" ID="9" Value="0">0,1,1,1</ChannelsGroup>
+  <ChannelsGroup Name="sol b" ID="10" Value="0">0,2,1,2</ChannelsGroup>
+  <ChannelsGroup Name="soleil droit r" ID="11" Value="0">2,0,7,0,9,0</ChannelsGroup>
+  <ChannelsGroup Name="soleil droit g" ID="12" Value="0">2,1,7,1,9,1</ChannelsGroup>
+  <ChannelsGroup Name="soleil droit b" ID="13" Value="0">2,2,7,2,9,2</ChannelsGroup>
+  <ChannelsGroup Name="soleil gauche r" ID="14" Value="0">3,0,8,0,10,0</ChannelsGroup>
+  <ChannelsGroup Name="soleil gauche g" ID="15" Value="0">3,1,8,1,10,1</ChannelsGroup>
+  <ChannelsGroup Name="soleil gauche b" ID="16" Value="0">3,2,8,2,10,2</ChannelsGroup>
+  <ChannelsGroup Name="wasser b" ID="17" Value="0">2,2,3,2</ChannelsGroup>
+  <ChannelsGroup Name="douche w" ID="18" Value="0">4,0,4,1,4,2</ChannelsGroup>
+  <ChannelsGroup Name="soleil seul droit r" ID="19" Value="0">7,0,9,0</ChannelsGroup>
+  <ChannelsGroup Name="soleil seul droit g" ID="20" Value="0">7,1,9,1</ChannelsGroup>
+  <ChannelsGroup Name="soleil seul droit b" ID="21" Value="0">7,2,9,2</ChannelsGroup>
+  <Function Type="Scene" Name="sol violet" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,10</ChannelGroups>
+   <FixtureVal ID="0">0,255,2,255</FixtureVal>
+   <FixtureVal ID="1">0,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="wasser" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>17</ChannelGroups>
+   <FixtureVal ID="2">2,255</FixtureVal>
+   <FixtureVal ID="3">2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil plein" ID="2">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,9,10,11,12,13,14,15,16</ChannelGroups>
+   <FixtureVal ID="0">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="1">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="2">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="3">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="7">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="8">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="9">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="10">0,255,1,228,2,206</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil horizon" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,9,10,11,12,13,14,15,16</ChannelGroups>
+   <FixtureVal ID="0">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="1">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="2">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="3">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="7">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="8">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="9">0,255,1,137,2,18</FixtureVal>
+   <FixtureVal ID="10">0,255,1,137,2,18</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil droit rose" ID="4">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>11,12,13</ChannelGroups>
+   <FixtureVal ID="2">0,255,1,100,2,255</FixtureVal>
+   <FixtureVal ID="7">0,255,1,100,2,255</FixtureVal>
+   <FixtureVal ID="9">0,255,1,100,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil droit et sol plein" ID="5">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>11,12,13,8,9,10</ChannelGroups>
+   <FixtureVal ID="0">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="1">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="2">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="7">0,255,1,228,2,206</FixtureVal>
+   <FixtureVal ID="9">0,255,1,228,2,206</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil gauche et sol chaud" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>14,15,16,8,9,10</ChannelGroups>
+   <FixtureVal ID="0">0,255,1,100,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,100,2,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,100,2,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,100,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,100,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="intro" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,9,10,11,12,13,14,15,16</ChannelGroups>
+   <FixtureVal ID="0">0,4,1,2,2,0</FixtureVal>
+   <FixtureVal ID="1">0,4,1,2,2,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil seul droit blanc" ID="8">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>19,20,21</ChannelGroups>
+   <FixtureVal ID="7">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,131</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil gauche jaune" ID="9">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>14,15,16</ChannelGroups>
+   <FixtureVal ID="8">0,255,1,219,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,219,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="sol chaud" ID="10">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,9,10</ChannelGroups>
+   <FixtureVal ID="0">0,255,1,100,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,100,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="ROUGE" ID="11">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,9,10,11,12,13,14,15,16</ChannelGroups>
+   <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="soleil nord" ID="12">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>8,9,10,11,12,13,14,15,16</ChannelGroups>
+   <FixtureVal ID="0">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="1">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="2">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="3">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="7">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="8">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="9">0,235,1,238,2,255</FixtureVal>
+   <FixtureVal ID="10">0,235,1,238,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="douche" ID="13">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>18</ChannelGroups>
+   <FixtureVal ID="4">0,255,1,255,2,255</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame ID="0" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="500" X="140" Y="50" Height="220" Visible="False"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Slider WidgetStyle="Slider" ID="1" Caption="intro" InvertedAppearance="false">
+     <WindowState Width="60" X="10" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="16"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>7</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="2" Caption="jour - tableau 1" InvertedAppearance="false">
+     <WindowState Width="60" X="70" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="17"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>2</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="3" Caption="horizon" InvertedAppearance="false">
+     <WindowState Width="60" X="130" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="18"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>3</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="4" Caption="sol violet" InvertedAppearance="false">
+     <WindowState Width="60" X="190" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="19"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>0</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="5" Caption="soleil seul droit blanc" InvertedAppearance="false">
+     <WindowState Width="60" X="250" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="20"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>8</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="6" Caption="soleil gauche chaud avec sol" InvertedAppearance="false">
+     <WindowState Width="60" X="310" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="21"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>6</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="7" Caption="wasser" InvertedAppearance="false">
+     <WindowState Width="60" X="370" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="22"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>1</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="8" Caption="soleil gauche jaune" InvertedAppearance="false">
+     <WindowState Width="60" X="430" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="23"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>9</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="9" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="500" X="140" Y="280" Height="220" Visible="False"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Slider WidgetStyle="Slider" ID="10" Caption="sol chaud" InvertedAppearance="false">
+     <WindowState Width="60" X="10" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="0"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>10</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="11" Caption="ROUGE" InvertedAppearance="false">
+     <WindowState Width="60" X="70" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="1"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>11</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="12" Caption="soleil nord" InvertedAppearance="false">
+     <WindowState Width="60" X="130" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="2"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>12</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="13" Caption="soleil droit et sol plein" InvertedAppearance="false">
+     <WindowState Width="60" X="190" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="3"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>5</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="14" Caption="douche" InvertedAppearance="false">
+     <WindowState Width="60" X="250" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="4"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>13</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="15" Caption="Slider 15" InvertedAppearance="false">
+     <WindowState Width="60" X="310" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="5"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="16" Caption="Slider 16" InvertedAppearance="false">
+     <WindowState Width="60" X="370" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="6"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider WidgetStyle="Slider" ID="17" Caption="Slider 17" InvertedAppearance="false">
+     <WindowState Width="60" X="430" Y="10" Height="200" Visible="False"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="7"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

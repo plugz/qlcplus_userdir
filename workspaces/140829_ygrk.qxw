@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.5 GIT</Version>
+  <Author>plug</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe ID="0" Name="Universe 1" Passthrough="0">
+    <Input Profile="None" Line="4294967295" Plugin="MIDI"/>
+    <Output Line="4294967295" Plugin="DMX USB"/>
+   </Universe>
+   <Universe ID="1" Name="Universe 2" Passthrough="0"/>
+   <Universe ID="2" Name="Universe 3" Passthrough="0"/>
+   <Universe ID="3" Name="Universe 4" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>0</ID>
+   <Name>s1 nw #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>1</ID>
+   <Name>s1 nw #2</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>2</ID>
+   <Name>s1 nw #3</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>3</ID>
+   <Name>s1 nw #4</Name>
+   <Universe>0</Universe>
+   <Address>18</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>4</ID>
+   <Name>s1 nw #5</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ghost</Manufacturer>
+   <Model>XS 70</Model>
+   <Mode>13ch</Mode>
+   <ID>5</ID>
+   <Name>s1 XS 70 #1</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ghost</Manufacturer>
+   <Model>XS 70</Model>
+   <Mode>13ch</Mode>
+   <ID>6</ID>
+   <Name>s1 XS 70 #2</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>7</ID>
+   <Name>s2 adj #1</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>8</ID>
+   <Name>s2 adj #2</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>9</ID>
+   <Name>s2 adj #3</Name>
+   <Universe>0</Universe>
+   <Address>62</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>10</ID>
+   <Name>s2 adj #4</Name>
+   <Universe>0</Universe>
+   <Address>65</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>11</ID>
+   <Name>s2 cht #1</Name>
+   <Universe>0</Universe>
+   <Address>68</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>12</ID>
+   <Name>s2 cht #2</Name>
+   <Universe>0</Universe>
+   <Address>71</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>13</ID>
+   <Name>s2 cht #3</Name>
+   <Universe>0</Universe>
+   <Address>74</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>14</ID>
+   <Name>s2 cht #4</Name>
+   <Universe>0</Universe>
+   <Address>77</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>s1 all</Name>
+   <Size X="3" Y="4"/>
+   <Head Fixture="5" X="2" Y="3">0</Head>
+   <Head Fixture="2" X="0" Y="1">0</Head>
+   <Head Fixture="0" X="0" Y="0">0</Head>
+   <Head Fixture="6" X="0" Y="3">0</Head>
+   <Head Fixture="4" X="1" Y="2">0</Head>
+   <Head Fixture="3" X="2" Y="1">0</Head>
+   <Head Fixture="1" X="2" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>s1 nw</Name>
+   <Size X="3" Y="3"/>
+   <Head Fixture="2" X="0" Y="1">0</Head>
+   <Head Fixture="0" X="0" Y="0">0</Head>
+   <Head Fixture="4" X="1" Y="2">0</Head>
+   <Head Fixture="3" X="2" Y="1">0</Head>
+   <Head Fixture="1" X="2" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>s1 xs</Name>
+   <Size X="2" Y="1"/>
+   <Head Fixture="6" X="1" Y="0">0</Head>
+   <Head Fixture="5" X="0" Y="0">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Name="s1 lyres center" Type="Scene">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="5">0,127,1,127,2,127,3,127</FixtureVal>
+   <FixtureVal ID="6">0,127,1,127,2,127,3,127</FixtureVal>
+  </Function>
+  <Function ID="1" Name="s1 lyres eight" Type="EFX">
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>42</Width>
+   <Height>64</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="2" Name="s1 lyres eight choppy follow" Type="EFX">
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>60</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareChoppy</Algorithm>
+   <Width>42</Width>
+   <Height>64</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="3" Name="s1 lyres eight updown snake" Type="EFX">
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>42</Width>
+   <Height>90</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>8</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="4" Name="s1 lyres eight leftright snake" Type="EFX">
+   <Fixture>
+    <ID>5</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>6</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>180</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>100</Width>
+   <Height>22</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>40</Offset>
+    <Frequency>12</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+  </Function>
+  <Function ID="5" Name="s1 lyres movement" Type="Chaser">
+   <Speed Duration="120000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" Hold="0" FadeIn="0">1</Step>
+   <Step Number="1" FadeOut="0" Hold="0" FadeIn="0">2</Step>
+   <Step Number="2" FadeOut="0" Hold="0" FadeIn="0">4</Step>
+   <Step Number="3" FadeOut="0" Hold="0" FadeIn="0">3</Step>
+  </Function>
+  <Function ID="6" Name="s1 white bf" Type="RGBMatrix">
+   <Speed Duration="100" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="7" Name="VOID" Type="Scene">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="-1"/>
+  </Function>
+  <Monitor ShowLabels="0" DisplayMode="1">
+   <Grid Height="5" Units="0" Width="5"/>
+   <FxItem ID="1" YPos="2564.71" XPos="4364.71"/>
+   <FxItem ID="0" YPos="2529.41" XPos="3164.71"/>
+   <FxItem ID="3" YPos="1811.76" XPos="4376.47"/>
+   <FxItem ID="2" YPos="1776.47" XPos="3164.71"/>
+   <FxItem ID="13" YPos="3070.59" XPos="282.353"/>
+   <FxItem ID="12" YPos="4152.94" XPos="1294.12"/>
+   <FxItem ID="14" YPos="3040.64" XPos="1239.04"/>
+   <FxItem ID="9" YPos="1235.29" XPos="388.235"/>
+   <FxItem ID="8" YPos="2164.71" XPos="1294.12"/>
+   <FxItem ID="11" YPos="4105.88" XPos="305.882"/>
+   <FxItem ID="10" YPos="1141.18" XPos="1258.82"/>
+   <FxItem ID="5" YPos="247.059" XPos="3247.06"/>
+   <FxItem ID="4" YPos="1141.18" XPos="3788.24"/>
+   <FxItem ID="7" YPos="2011.76" XPos="364.706"/>
+   <FxItem ID="6" YPos="258.824" XPos="4341.18"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Height="1080" Width="1920"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ValueMode="Reduce" ChannelMode="Intensity"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

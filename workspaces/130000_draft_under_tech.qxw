@@ -1,0 +1,1493 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.5.1</Version>
+  <Author>plug,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>LED PAR56</Model>
+   <Mode>Mode 1</Mode>
+   <ID>0</ID>
+   <Name>noiremoyen #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>64B LED PRO</Model>
+   <Mode>6 Channel</Mode>
+   <ID>2</ID>
+   <Name>noiregrosse #1</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>64B LED PRO</Model>
+   <Mode>6 Channel</Mode>
+   <ID>3</ID>
+   <Name>noiregrosse #2</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Contest</Manufacturer>
+   <Model>led 36rgb</Model>
+   <Mode>mode</Mode>
+   <ID>4</ID>
+   <Name>chromepetite #1</Name>
+   <Universe>0</Universe>
+   <Address>22</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Contest</Manufacturer>
+   <Model>led 36rgb</Model>
+   <Mode>mode</Mode>
+   <ID>5</ID>
+   <Name>chromepetite #2</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>8</ID>
+   <Name>chromegrosse #1</Name>
+   <Universe>0</Universe>
+   <Address>38</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>9</ID>
+   <Name>chromegrosse #2</Name>
+   <Universe>0</Universe>
+   <Address>44</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>10</ID>
+   <Name>chromegrosse #3</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>11</ID>
+   <Name>chromegrosse #4</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>12</ID>
+   <Name>chromegrosse #5</Name>
+   <Universe>0</Universe>
+   <Address>62</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>13</ID>
+   <Name>chromegrosse #6</Name>
+   <Universe>0</Universe>
+   <Address>68</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>14</ID>
+   <Name>chromegrosse #7</Name>
+   <Universe>0</Universe>
+   <Address>74</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>15</ID>
+   <Name>chromegrosse #8</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>16</ID>
+   <Name>chromegrosse #9</Name>
+   <Universe>0</Universe>
+   <Address>86</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>17</ID>
+   <Name>chromegrosse #10</Name>
+   <Universe>0</Universe>
+   <Address>92</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>18</ID>
+   <Name>chromegrosse #11</Name>
+   <Universe>0</Universe>
+   <Address>98</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>19</ID>
+   <Name>chromegrosse #12</Name>
+   <Universe>0</Universe>
+   <Address>104</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>20</ID>
+   <Name>chauvet #1</Name>
+   <Universe>0</Universe>
+   <Address>110</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR 56</Model>
+   <Mode>7ch</Mode>
+   <ID>21</ID>
+   <Name>chauvet #2</Name>
+   <Universe>0</Universe>
+   <Address>117</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>22</ID>
+   <Name>bar1 #1</Name>
+   <Universe>0</Universe>
+   <Address>124</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>23</ID>
+   <Name>bar1 #2</Name>
+   <Universe>0</Universe>
+   <Address>127</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>24</ID>
+   <Name>bar1 #3</Name>
+   <Universe>0</Universe>
+   <Address>130</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>25</ID>
+   <Name>bar1 #4</Name>
+   <Universe>0</Universe>
+   <Address>133</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>shotek</Manufacturer>
+   <Model>controlbar</Model>
+   <Mode>mode</Mode>
+   <ID>26</ID>
+   <Name>bar1c</Name>
+   <Universe>0</Universe>
+   <Address>136</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>27</ID>
+   <Name>bar2 #1</Name>
+   <Universe>0</Universe>
+   <Address>138</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>28</ID>
+   <Name>bar2 #2</Name>
+   <Universe>0</Universe>
+   <Address>141</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>29</ID>
+   <Name>bar2 #3</Name>
+   <Universe>0</Universe>
+   <Address>144</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>30</ID>
+   <Name>bar2 #4</Name>
+   <Universe>0</Universe>
+   <Address>147</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>shotek</Manufacturer>
+   <Model>controlbar</Model>
+   <Mode>mode</Mode>
+   <ID>31</ID>
+   <Name>bar2c</Name>
+   <Universe>0</Universe>
+   <Address>150</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>all</Name>
+   <Size X="12" Y="4"/>
+   <Head Fixture="2" X="0" Y="0">0</Head>
+   <Head Fixture="19" X="4" Y="2">0</Head>
+   <Head Fixture="15" X="0" Y="2">0</Head>
+   <Head Fixture="25" X="4" Y="3">0</Head>
+   <Head Fixture="21" X="0" Y="3">0</Head>
+   <Head Fixture="30" X="4" Y="4">0</Head>
+   <Head Fixture="12" X="5" Y="0">0</Head>
+   <Head Fixture="8" X="1" Y="0">0</Head>
+   <Head Fixture="20" X="5" Y="2">0</Head>
+   <Head Fixture="16" X="1" Y="2">0</Head>
+   <Head Fixture="22" X="1" Y="3">0</Head>
+   <Head Fixture="27" X="1" Y="4">0</Head>
+   <Head Fixture="13" X="6" Y="0">0</Head>
+   <Head Fixture="10" X="2" Y="0">0</Head>
+   <Head Fixture="17" X="2" Y="2">0</Head>
+   <Head Fixture="23" X="2" Y="3">0</Head>
+   <Head Fixture="28" X="2" Y="4">0</Head>
+   <Head Fixture="3" X="11" Y="0">0</Head>
+   <Head Fixture="14" X="7" Y="0">0</Head>
+   <Head Fixture="9" X="3" Y="0">0</Head>
+   <Head Fixture="18" X="3" Y="2">0</Head>
+   <Head Fixture="24" X="3" Y="3">0</Head>
+   <Head Fixture="29" X="3" Y="4">0</Head>
+   <Head Fixture="11" X="4" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>all_dancefloor</Name>
+   <Size X="12" Y="2"/>
+   <Head Fixture="2" X="0" Y="0">0</Head>
+   <Head Fixture="23" X="4" Y="1">0</Head>
+   <Head Fixture="18" X="9" Y="0">0</Head>
+   <Head Fixture="16" X="5" Y="0">0</Head>
+   <Head Fixture="12" X="9" Y="1">0</Head>
+   <Head Fixture="14" X="1" Y="0">0</Head>
+   <Head Fixture="10" X="5" Y="1">0</Head>
+   <Head Fixture="8" X="1" Y="1">0</Head>
+   <Head Fixture="19" X="10" Y="0">0</Head>
+   <Head Fixture="17" X="6" Y="0">0</Head>
+   <Head Fixture="13" X="10" Y="1">0</Head>
+   <Head Fixture="15" X="2" Y="0">0</Head>
+   <Head Fixture="11" X="6" Y="1">0</Head>
+   <Head Fixture="9" X="2" Y="1">0</Head>
+   <Head Fixture="3" X="11" Y="0">0</Head>
+   <Head Fixture="28" X="7" Y="0">0</Head>
+   <Head Fixture="24" X="3" Y="0">0</Head>
+   <Head Fixture="30" X="7" Y="1">0</Head>
+   <Head Fixture="22" X="3" Y="1">0</Head>
+   <Head Fixture="27" X="8" Y="0">0</Head>
+   <Head Fixture="29" X="8" Y="1">0</Head>
+   <Head Fixture="25" X="4" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>bar</Name>
+   <Size X="2" Y="2"/>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>dj</Name>
+   <Size X="2" Y="1"/>
+   <Head Fixture="20" X="0" Y="0">0</Head>
+   <Head Fixture="21" X="1" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>barled</Name>
+   <Size X="2" Y="4"/>
+   <Head Fixture="22" X="0" Y="0">0</Head>
+   <Head Fixture="30" X="1" Y="0">0</Head>
+   <Head Fixture="23" X="0" Y="1">0</Head>
+   <Head Fixture="29" X="1" Y="1">0</Head>
+   <Head Fixture="24" X="0" Y="2">0</Head>
+   <Head Fixture="28" X="1" Y="2">0</Head>
+   <Head Fixture="25" X="0" Y="3">0</Head>
+   <Head Fixture="27" X="1" Y="3">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="5">
+   <Name>barledinv</Name>
+   <Size X="2" Y="4"/>
+   <Head Fixture="30" X="0" Y="0">0</Head>
+   <Head Fixture="22" X="1" Y="0">0</Head>
+   <Head Fixture="29" X="0" Y="1">0</Head>
+   <Head Fixture="23" X="1" Y="1">0</Head>
+   <Head Fixture="28" X="0" Y="2">0</Head>
+   <Head Fixture="24" X="1" Y="2">0</Head>
+   <Head Fixture="27" X="0" Y="3">0</Head>
+   <Head Fixture="25" X="1" Y="3">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>chromegrosse</Name>
+   <Size X="2" Y="6"/>
+   <Head Fixture="8" X="0" Y="0">0</Head>
+   <Head Fixture="17" X="1" Y="0">0</Head>
+   <Head Fixture="9" X="0" Y="1">0</Head>
+   <Head Fixture="18" X="1" Y="1">0</Head>
+   <Head Fixture="10" X="0" Y="2">0</Head>
+   <Head Fixture="19" X="1" Y="2">0</Head>
+   <Head Fixture="14" X="0" Y="3">0</Head>
+   <Head Fixture="11" X="1" Y="3">0</Head>
+   <Head Fixture="15" X="0" Y="4">0</Head>
+   <Head Fixture="12" X="1" Y="4">0</Head>
+   <Head Fixture="16" X="0" Y="5">0</Head>
+   <Head Fixture="13" X="1" Y="5">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="7">
+   <Name>chromegrosse_inv</Name>
+   <Size X="2" Y="6"/>
+   <Head Fixture="17" X="0" Y="0">0</Head>
+   <Head Fixture="8" X="1" Y="0">0</Head>
+   <Head Fixture="18" X="0" Y="1">0</Head>
+   <Head Fixture="9" X="1" Y="1">0</Head>
+   <Head Fixture="19" X="0" Y="2">0</Head>
+   <Head Fixture="10" X="1" Y="2">0</Head>
+   <Head Fixture="11" X="0" Y="3">0</Head>
+   <Head Fixture="14" X="1" Y="3">0</Head>
+   <Head Fixture="12" X="0" Y="4">0</Head>
+   <Head Fixture="15" X="1" Y="4">0</Head>
+   <Head Fixture="13" X="0" Y="5">0</Head>
+   <Head Fixture="16" X="1" Y="5">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup Name="blanc" ID="0" Value="0">0,1,0,2,0,3,2,0,2,1,2,2,3,0,3,1,3,2,4,0,4,1,4,2,5,0,5,1,5,2,8,0,8,1,8,2,9,0,9,1,9,2,10,0,10,1,10,2,11,0,11,1,11,2,12,0,12,1,12,2,13,0,13,1,13,2,14,0,14,1,14,2,15,0,15,1,15,2,16,0,16,1,16,2,17,0,17,1,17,2,18,0,18,1,18,2,19,0,19,1,19,2,20,0,20,1,20,2,21,0,21,1,21,2,22,0,22,1,22,2,23,0,23,1,23,2,24,0,24,1,24,2,25,0,25,1,25,2,27,0,27,1,27,2,28,0,28,1,28,2,29,0,29,1,29,2,30,0,30,1,30,2</ChannelsGroup>
+  <ChannelsGroup Name="strobe" ID="1" Value="0">2,4,3,4,8,4,9,4,10,4,11,4,12,4,13,4,14,4,15,4,16,4,17,4,18,4,19,4,26,0,31,0</ChannelsGroup>
+  <ChannelsGroup Name="deco red" ID="2" Value="0">0,1,4,0,5,0,20,0,21,0</ChannelsGroup>
+  <ChannelsGroup Name="deco green" ID="3" Value="0">0,2,4,1,5,1,20,1,21,1</ChannelsGroup>
+  <ChannelsGroup Name="deco blue" ID="4" Value="0">0,3,4,2,5,2,20,2,21,2</ChannelsGroup>
+  <Function Type="RGBMatrix" Name="dancefloor_row_red" ID="0">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_row_blue" ID="1">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_row_green" ID="2">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="dj red" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_col_red" ID="4">
+   <Speed Duration="0" FadeOut="0" FadeIn="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="dj green" ID="5">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="20">1,255</FixtureVal>
+   <FixtureVal ID="21">1,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_col_blue" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_col_green" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_row_yellow" ID="8">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_row_pink" ID="9">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_row_lblue" ID="10">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_col_lblue" ID="11">
+   <Speed Duration="0" FadeOut="0" FadeIn="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4278255615</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_col_yellow" ID="12">
+   <Speed Duration="0" FadeOut="0" FadeIn="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_col_pink" ID="13">
+   <Speed Duration="0" FadeOut="0" FadeIn="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294902015</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="dj blue" ID="14">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="20">2,255</FixtureVal>
+   <FixtureVal ID="21">2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="bar red" ID="15">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="bar green" ID="16">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+   <FixtureVal ID="4">1,255</FixtureVal>
+   <FixtureVal ID="5">1,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="bar blue" ID="17">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,255</FixtureVal>
+   <FixtureVal ID="4">2,255</FixtureVal>
+   <FixtureVal ID="5">2,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol_blue" ID="18">
+   <Speed Duration="500" FadeOut="100" FadeIn="110"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <FixtureGroup>5</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_noel" ID="19">
+   <Speed Duration="30" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Single Random</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol2_red" ID="20">
+   <Speed Duration="390" FadeOut="60" FadeIn="140"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function Type="Scene" Name="dancefloor blanc" ID="21">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>0</ChannelGroups>
+   <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="12">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="13">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="14">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="15">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="16">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="17">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="18">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="19">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="22">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="23">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="24">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="25">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="27">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="28">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="29">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="30">0,255,1,255,2,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="dancefloor strobe" ID="22">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>1</ChannelGroups>
+   <FixtureVal ID="2">4,255</FixtureVal>
+   <FixtureVal ID="3">4,255</FixtureVal>
+   <FixtureVal ID="8">4,255</FixtureVal>
+   <FixtureVal ID="9">4,255</FixtureVal>
+   <FixtureVal ID="10">4,255</FixtureVal>
+   <FixtureVal ID="11">4,255</FixtureVal>
+   <FixtureVal ID="12">4,255</FixtureVal>
+   <FixtureVal ID="13">4,255</FixtureVal>
+   <FixtureVal ID="14">4,255</FixtureVal>
+   <FixtureVal ID="15">4,255</FixtureVal>
+   <FixtureVal ID="16">4,255</FixtureVal>
+   <FixtureVal ID="17">4,255</FixtureVal>
+   <FixtureVal ID="18">4,255</FixtureVal>
+   <FixtureVal ID="19">4,255</FixtureVal>
+   <FixtureVal ID="26">0,255</FixtureVal>
+   <FixtureVal ID="31">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="deco red" ID="23">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>2</ChannelGroups>
+   <FixtureVal ID="0">1,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="20">0,255</FixtureVal>
+   <FixtureVal ID="21">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="deco green" ID="24">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>3</ChannelGroups>
+   <FixtureVal ID="0">2,255</FixtureVal>
+   <FixtureVal ID="4">1,255</FixtureVal>
+   <FixtureVal ID="5">1,255</FixtureVal>
+   <FixtureVal ID="20">1,255</FixtureVal>
+   <FixtureVal ID="21">1,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="deco blue" ID="25">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>4</ChannelGroups>
+   <FixtureVal ID="0">3,255</FixtureVal>
+   <FixtureVal ID="4">2,255</FixtureVal>
+   <FixtureVal ID="5">2,255</FixtureVal>
+   <FixtureVal ID="20">2,255</FixtureVal>
+   <FixtureVal ID="21">2,255</FixtureVal>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol_blanc" ID="26">
+   <Speed Duration="30" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Single Random</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol_red" ID="27">
+   <Speed Duration="500" FadeOut="100" FadeIn="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol2_blue" ID="28">
+   <Speed Duration="390" FadeOut="60" FadeIn="140"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4278190335</MonoColor>
+   <FixtureGroup>7</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol2_white" ID="29">
+   <Speed Duration="50" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Single Random</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="pol2_white2" ID="30">
+   <Speed Duration="100" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Single Random</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function Type="Show" Name="Nouveau Show 31" ID="31">
+   <TimeDivision Type="Time" BPM="120"/>
+  </Function>
+  <Function Type="Chaser" Name="dancefloor_row" ID="32">
+   <Speed Duration="30960" FadeOut="5220" FadeIn="5550"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="100000">8</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="70960">35</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">0</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="70960">44</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">10</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="70960">38</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="70960">36</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="70960">45</Step>
+   <Step Number="8" FadeOut="0" FadeIn="0" Hold="0">2</Step>
+   <Step Number="9" FadeOut="0" FadeIn="0" Hold="0">1</Step>
+   <Step Number="10" FadeOut="0" FadeIn="0" Hold="70960">40</Step>
+   <Step Number="11" FadeOut="0" FadeIn="0" Hold="70960">37</Step>
+   <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">9</Step>
+   <Step Number="13" FadeOut="0" FadeIn="0" Hold="70960">41</Step>
+   <Step Number="14" FadeOut="0" FadeIn="0" Hold="70960">46</Step>
+   <Step Number="15" FadeOut="0" FadeIn="0" Hold="70960">43</Step>
+   <Step Number="16" FadeOut="0" FadeIn="0" Hold="70960">39</Step>
+   <Step Number="17" FadeOut="0" FadeIn="0" Hold="70960">42</Step>
+  </Function>
+  <Function Type="Chaser" Name="dancefloor_col" ID="33">
+   <Speed Duration="60000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">19</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">12</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">4</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">13</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">11</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">7</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">6</Step>
+  </Function>
+  <Function Type="Chaser" Name="noel" ID="34">
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">19</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">30</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">29</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">26</Step>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_oppcol_red" ID="35">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_oppcol_green" ID="36">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Columns</Algorithm>
+   <MonoColor>4278255360</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_oppcol_blue" ID="37">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Columns</Algorithm>
+   <MonoColor>4278202111</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_oppcol_yellow" ID="38">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Columns</Algorithm>
+   <MonoColor>4294180608</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_oppcol_pink" ID="39">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Columns</Algorithm>
+   <MonoColor>4294901994</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_oppcol_lblue" ID="40">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite Columns</Algorithm>
+   <MonoColor>4278255607</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_evenodd_red" ID="41">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_evenodd_blue" ID="42">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4278194687</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_evenodd_green" ID="43">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4278255368</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_evenodd_yellow" ID="44">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294967040</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_evenodd_lblue" ID="45">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4278252543</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="dancefloor_evenodd_pink" ID="46">
+   <Speed Duration="1220" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Even/Odd</Algorithm>
+   <MonoColor>4294377727</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Icon="" ID="0" Caption="Button 0">
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="20" Y="15" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="1" Caption="Button 1">
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="70" Y="15" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="2" Caption="Button 2">
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="20" Y="65" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="3" Caption="noel">
+    <Function ID="34"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="60"/>
+    <WindowState Width="50" X="115" Y="65" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="4" Caption="dancefloor_row">
+    <Function ID="32"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="61"/>
+    <WindowState Width="50" X="170" Y="65" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="5" Caption="dancefloor_col">
+    <Function ID="33"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="62"/>
+    <WindowState Width="50" X="220" Y="65" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="6" Caption="dancefloor strobe">
+    <Function ID="22"/>
+    <Action>Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="43"/>
+    <WindowState Width="50" X="20" Y="115" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="7" Caption="Button 7">
+    <Function ID="4294967295"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="70" Y="115" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="8" Caption="stop">
+    <Function ID="4294967295"/>
+    <Action>StopAll</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="42"/>
+    <WindowState Width="50" X="120" Y="115" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="9" Caption="pol2_white2">
+    <Function ID="30"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="41"/>
+    <WindowState Width="50" X="170" Y="115" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <SoloFrame ID="11" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="120" X="1025" Y="220" Height="170" Visible="False"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="12" Caption="dancefloor_row_red">
+     <Function ID="0"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="38"/>
+     <WindowState Width="50" X="10" Y="10" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="13" Caption="dancefloor_row_yellow">
+     <Function ID="8"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="39"/>
+     <WindowState Width="50" X="60" Y="10" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="14" Caption="dancefloor_row_green">
+     <Function ID="2"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="54"/>
+     <WindowState Width="50" X="10" Y="60" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="15" Caption="dancefloor_row_lblue">
+     <Function ID="10"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="55"/>
+     <WindowState Width="50" X="60" Y="60" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="16" Caption="dancefloor_row_blue">
+     <Function ID="1"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="70"/>
+     <WindowState Width="50" X="10" Y="110" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="17" Caption="dancefloor_row_pink">
+     <Function ID="9"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="71"/>
+     <WindowState Width="50" X="60" Y="110" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+   <SoloFrame ID="26" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="120" X="885" Y="215" Height="170" Visible="False"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="27" Caption="dancefloor_col_red">
+     <Function ID="4"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="36"/>
+     <WindowState Width="50" X="10" Y="10" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="28" Caption="dancefloor_col_yellow">
+     <Function ID="12"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="37"/>
+     <WindowState Width="50" X="60" Y="10" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="29" Caption="dancefloor_col_green">
+     <Function ID="7"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="52"/>
+     <WindowState Width="50" X="10" Y="60" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="30" Caption="dancefloor_col_lblue">
+     <Function ID="11"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="53"/>
+     <WindowState Width="50" X="60" Y="60" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="31" Caption="dancefloor_col_blue">
+     <Function ID="6"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="68"/>
+     <WindowState Width="50" X="10" Y="110" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="32" Caption="dancefloor_col_pink">
+     <Function ID="13"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="69"/>
+     <WindowState Width="50" X="60" Y="110" Height="50" Visible="False"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+   <SpeedDial SpeedTypes="4" ID="33" Caption="Durée">
+    <WindowState Width="40" X="1095" Y="400" Height="135" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="0" Channel="7"/>
+    </AbsoluteValue>
+    <Tap/>
+    <Function>0</Function>
+    <Function>37</Function>
+    <Function>1</Function>
+    <Function>38</Function>
+    <Function>2</Function>
+    <Function>39</Function>
+    <Function>40</Function>
+    <Function>41</Function>
+    <Function>42</Function>
+    <Function>43</Function>
+    <Function>44</Function>
+    <Function>8</Function>
+    <Function>45</Function>
+    <Function>9</Function>
+    <Function>46</Function>
+    <Function>10</Function>
+    <Function>35</Function>
+    <Function>36</Function>
+   </SpeedDial>
+   <SpeedDial SpeedTypes="1" ID="34" Caption="Durée">
+    <WindowState Width="40" X="1025" Y="165" Height="45" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="0" Channel="22"/>
+    </AbsoluteValue>
+    <Tap/>
+    <Function>0</Function>
+    <Function>37</Function>
+    <Function>1</Function>
+    <Function>38</Function>
+    <Function>2</Function>
+    <Function>39</Function>
+    <Function>40</Function>
+    <Function>41</Function>
+    <Function>42</Function>
+    <Function>43</Function>
+    <Function>44</Function>
+    <Function>8</Function>
+    <Function>45</Function>
+    <Function>9</Function>
+    <Function>46</Function>
+    <Function>10</Function>
+    <Function>35</Function>
+    <Function>36</Function>
+   </SpeedDial>
+   <SpeedDial SpeedTypes="2" ID="34" Caption="Durée">
+    <WindowState Width="55" X="1085" Y="160" Height="55" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="0" Channel="23"/>
+    </AbsoluteValue>
+    <Tap/>
+    <Function>0</Function>
+    <Function>37</Function>
+    <Function>1</Function>
+    <Function>38</Function>
+    <Function>2</Function>
+    <Function>39</Function>
+    <Function>40</Function>
+    <Function>41</Function>
+    <Function>42</Function>
+    <Function>43</Function>
+    <Function>44</Function>
+    <Function>8</Function>
+    <Function>45</Function>
+    <Function>9</Function>
+    <Function>46</Function>
+    <Function>10</Function>
+    <Function>35</Function>
+    <Function>36</Function>
+   </SpeedDial>
+   <SpeedDial SpeedTypes="4" ID="35" Caption="Durée">
+    <WindowState Width="55" X="950" Y="390" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="0" Channel="5"/>
+    </AbsoluteValue>
+    <Tap/>
+    <Function>4</Function>
+    <Function>6</Function>
+    <Function>7</Function>
+    <Function>11</Function>
+    <Function>12</Function>
+    <Function>13</Function>
+   </SpeedDial>
+   <SpeedDial SpeedTypes="1" ID="36" Caption="Durée">
+    <WindowState Width="70" X="865" Y="130" Height="80" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="0" Channel="20"/>
+    </AbsoluteValue>
+    <Tap/>
+    <Function>4</Function>
+    <Function>6</Function>
+    <Function>7</Function>
+    <Function>11</Function>
+    <Function>12</Function>
+    <Function>13</Function>
+   </SpeedDial>
+   <SpeedDial SpeedTypes="2" ID="37" Caption="Durée">
+    <WindowState Width="60" X="940" Y="150" Height="60" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="0" Channel="21"/>
+    </AbsoluteValue>
+    <Tap/>
+    <Function>4</Function>
+    <Function>6</Function>
+    <Function>7</Function>
+    <Function>11</Function>
+    <Function>12</Function>
+    <Function>13</Function>
+   </SpeedDial>
+   <Slider WidgetStyle="Slider" ID="37" Caption="Slider 37" InvertedAppearance="false">
+    <WindowState Width="60" X="880" Y="395" Height="200" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="4"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>21</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Knob" ID="41" Caption="Slider 41" InvertedAppearance="false">
+    <WindowState Width="60" X="395" Y="140" Height="90" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="16"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>23</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Knob" ID="42" Caption="Slider 42" InvertedAppearance="false">
+    <WindowState Width="60" X="525" Y="135" Height="90" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="17"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>24</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Knob" ID="43" Caption="Slider 43" InvertedAppearance="false">
+    <WindowState Width="60" X="605" Y="130" Height="90" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="18"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>25</Function>
+    </Playback>
+   </Slider>
+   <Button Icon="" ID="45" Caption="pol_blanc">
+    <Function ID="26"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="45"/>
+    <WindowState Width="50" X="220" Y="115" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="46" Caption="pol_blue">
+    <Function ID="18"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="45"/>
+    <WindowState Width="25" X="245" Y="165" Height="20" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="47" Caption="pol_red">
+    <Function ID="27"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="45"/>
+    <WindowState Width="25" X="220" Y="165" Height="20" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="48" Caption="pol2_white">
+    <Function ID="29"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="41"/>
+    <WindowState Width="50" X="170" Y="165" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="49" Caption="pol2_red">
+    <Function ID="20"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="41"/>
+    <WindowState Width="50" X="170" Y="215" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button Icon="" ID="50" Caption="pol2_blue">
+    <Function ID="28"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <Input Universe="0" Channel="41"/>
+    <WindowState Width="50" X="170" Y="265" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

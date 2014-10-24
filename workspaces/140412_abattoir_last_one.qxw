@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="SimpleDesk">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0 RC2</Version>
+  <Author>plug,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Input Plugin="MIDI" Line="4294967295" Profile="None"/>
+    <Output Plugin="DMX USB" Line="0"/>
+    <Feedback Plugin="None" Line="4294967295"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0">
+    <Input Plugin="None" Line="4294967295" Profile="None"/>
+    <Output Plugin="None" Line="4294967295"/>
+    <Feedback Plugin="None" Line="4294967295"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2" Passthrough="0">
+    <Input Plugin="None" Line="4294967295" Profile="None"/>
+    <Output Plugin="None" Line="4294967295"/>
+    <Feedback Plugin="None" Line="4294967295"/>
+   </Universe>
+   <Universe Name="Universe 4" ID="3" Passthrough="0">
+    <Input Plugin="None" Line="4294967295" Profile="None"/>
+    <Output Plugin="None" Line="4294967295"/>
+    <Feedback Plugin="None" Line="4294967295"/>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Ghost</Manufacturer>
+   <Model>XS 70</Model>
+   <Mode>13ch</Mode>
+   <ID>0</ID>
+   <Name>XS 70 #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ghost</Manufacturer>
+   <Model>XS 70</Model>
+   <Mode>13ch</Mode>
+   <ID>1</ID>
+   <Name>XS 70 #2</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>2</ID>
+   <Name>Generic RGB #1</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>3</ID>
+   <Name>Generic RGB #2</Name>
+   <Universe>0</Universe>
+   <Address>29</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>4</ID>
+   <Name>Generic RGB #3</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>5</ID>
+   <Name>Generic RGB #4</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Entour</Model>
+   <Mode>16 Bt (16 Bit Mode)</Mode>
+   <ID>19</ID>
+   <Name>MAC250 Entour #1</Name>
+   <Universe>0</Universe>
+   <Address>86</Address>
+   <Channels>15</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Entour</Model>
+   <Mode>16 Bt (16 Bit Mode)</Mode>
+   <ID>20</ID>
+   <Name>MAC250 Entour #2</Name>
+   <Universe>0</Universe>
+   <Address>101</Address>
+   <Channels>15</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>25</ID>
+   <Name>nawash #1</Name>
+   <Universe>0</Universe>
+   <Address>38</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>26</ID>
+   <Name>nawash #2</Name>
+   <Universe>0</Universe>
+   <Address>44</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>27</ID>
+   <Name>nawash #3</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>28</ID>
+   <Name>nawash #4</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>29</ID>
+   <Name>nawash #5</Name>
+   <Universe>0</Universe>
+   <Address>62</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>30</ID>
+   <Name>nawash #6</Name>
+   <Universe>0</Universe>
+   <Address>68</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>31</ID>
+   <Name>adj #1</Name>
+   <Universe>0</Universe>
+   <Address>74</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>32</ID>
+   <Name>adj #2</Name>
+   <Universe>0</Universe>
+   <Address>77</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>33</ID>
+   <Name>adj #3</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>34</ID>
+   <Name>adj #4</Name>
+   <Universe>0</Universe>
+   <Address>83</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="lyres std pos" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,127,1,127,2,127,3,127</FixtureVal>
+   <FixtureVal ID="1">0,127,1,127,2,127,3,127</FixtureVal>
+   <FixtureVal ID="19">9,138,10,127,11,211,12,127</FixtureVal>
+   <FixtureVal ID="20">9,117,10,127,11,211,12,127</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider WidgetStyle="Slider" ID="0" Caption="red" InvertedAppearance="false">
+    <WindowState Width="60" X="250" Y="95" Height="180" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0">
+     <Channel Fixture="0">6</Channel>
+     <Channel Fixture="1">6</Channel>
+     <Channel Fixture="2">0</Channel>
+     <Channel Fixture="3">0</Channel>
+     <Channel Fixture="4">0</Channel>
+     <Channel Fixture="5">0</Channel>
+     <Channel Fixture="25">0</Channel>
+     <Channel Fixture="26">0</Channel>
+     <Channel Fixture="27">0</Channel>
+     <Channel Fixture="28">0</Channel>
+     <Channel Fixture="29">0</Channel>
+     <Channel Fixture="30">0</Channel>
+     <Channel Fixture="31">0</Channel>
+     <Channel Fixture="32">0</Channel>
+     <Channel Fixture="33">0</Channel>
+     <Channel Fixture="34">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Slider" ID="1" Caption="green" InvertedAppearance="false">
+    <WindowState Width="60" X="310" Y="95" Height="180" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="255">
+     <Channel Fixture="0">7</Channel>
+     <Channel Fixture="1">7</Channel>
+     <Channel Fixture="2">1</Channel>
+     <Channel Fixture="3">1</Channel>
+     <Channel Fixture="4">1</Channel>
+     <Channel Fixture="5">1</Channel>
+     <Channel Fixture="25">1</Channel>
+     <Channel Fixture="26">1</Channel>
+     <Channel Fixture="27">1</Channel>
+     <Channel Fixture="28">1</Channel>
+     <Channel Fixture="29">1</Channel>
+     <Channel Fixture="30">1</Channel>
+     <Channel Fixture="31">1</Channel>
+     <Channel Fixture="32">1</Channel>
+     <Channel Fixture="33">1</Channel>
+     <Channel Fixture="34">1</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Slider" ID="2" Caption="blue" InvertedAppearance="false">
+    <WindowState Width="60" X="370" Y="95" Height="180" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="255">
+     <Channel Fixture="0">8</Channel>
+     <Channel Fixture="1">8</Channel>
+     <Channel Fixture="2">2</Channel>
+     <Channel Fixture="3">2</Channel>
+     <Channel Fixture="4">2</Channel>
+     <Channel Fixture="5">2</Channel>
+     <Channel Fixture="25">2</Channel>
+     <Channel Fixture="26">2</Channel>
+     <Channel Fixture="27">2</Channel>
+     <Channel Fixture="28">2</Channel>
+     <Channel Fixture="29">2</Channel>
+     <Channel Fixture="30">2</Channel>
+     <Channel Fixture="31">2</Channel>
+     <Channel Fixture="32">2</Channel>
+     <Channel Fixture="33">2</Channel>
+     <Channel Fixture="34">2</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Slider" ID="3" Caption="ghost strobe" InvertedAppearance="false">
+    <WindowState Width="60" X="480" Y="95" Height="180" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+    <Level HighLimit="239" LowLimit="134" Value="134">
+     <Channel Fixture="0">5</Channel>
+     <Channel Fixture="1">5</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Slider" ID="4" Caption="mac strobe" InvertedAppearance="false">
+    <WindowState Width="60" X="540" Y="95" Height="180" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+    <Level HighLimit="72" LowLimit="49" Value="49">
+     <Channel Fixture="19">0</Channel>
+     <Channel Fixture="20">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Slider WidgetStyle="Slider" ID="5" Caption="mac dim" InvertedAppearance="false">
+    <WindowState Width="60" X="645" Y="90" Height="180" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="255">
+     <Channel Fixture="19">1</Channel>
+     <Channel Fixture="20">1</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Icon="" ID="6" Caption="lyres std pos">
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="60" X="235" Y="330" Height="60" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

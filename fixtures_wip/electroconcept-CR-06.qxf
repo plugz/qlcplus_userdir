@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://qlcplus.sourceforge.net/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.5 GIT</Version>
+  <Author>David Garyga,,,</Author>
+ </Creator>
+ <Manufacturer>electroconcept</Manufacturer>
+ <Model>CR-06</Model>
+ <Type>Laser</Type>
+ <Channel Name="Mode">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="49">Music Auto</Capability>
+  <Capability Min="50" Max="99">Beam Auto</Capability>
+  <Capability Min="100" Max="149">Anims Auto</Capability>
+  <Capability Min="150" Max="199">Music Manual</Capability>
+  <Capability Min="200" Max="255">Auto Manual</Capability>
+ </Channel>
+ <Channel Name="Grating Mirror">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Normal</Capability>
+  <Capability Min="64" Max="128">Multi Pattern</Capability>
+  <Capability Min="129" Max="192">3D dot</Capability>
+  <Capability Min="193" Max="255">3D pane</Capability>
+ </Channel>
+ <Channel Name="Color Mode">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="49">Shut Off</Capability>
+  <Capability Min="50" Max="99">No Blanking</Capability>
+  <Capability Min="100" Max="149">Smooth Blanking</Capability>
+  <Capability Min="150" Max="200">Strobe Blanking</Capability>
+  <Capability Min="201" Max="255">Straight Blanking</Capability>
+ </Channel>
+ <Channel Name="Pattern">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Vertical Strech">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Manual</Capability>
+  <Capability Min="128" Max="255">Auto</Capability>
+ </Channel>
+ <Channel Name="Horizontal Strech">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Manual</Capability>
+  <Capability Min="128" Max="255">Auto</Capability>
+ </Channel>
+ <Channel Name="Vertical Overturn">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Manual</Capability>
+  <Capability Min="128" Max="255">Auto</Capability>
+ </Channel>
+ <Channel Name="Horizontal Overturn">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Manual</Capability>
+  <Capability Min="128" Max="255">Auto</Capability>
+ </Channel>
+ <Channel Name="Rotation">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Manual</Capability>
+  <Capability Min="128" Max="191">Auto Clockwise</Capability>
+  <Capability Min="192" Max="255">Auto Counterclockwise</Capability>
+ </Channel>
+ <Channel Name="Zoom">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="85">Small To Big</Capability>
+  <Capability Min="86" Max="170">Big To Small</Capability>
+  <Capability Min="192" Max="255">Commutative</Capability>
+ </Channel>
+ <Channel Name="Pattern Size">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="0">Original</Capability>
+  <Capability Min="1" Max="255">Small to Big</Capability>
+ </Channel>
+ <Channel Name="Dot">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="0">No</Capability>
+  <Capability Min="1" Max="255">Min to Max</Capability>
+ </Channel>
+ <Channel Name="Gradual draw">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">mode 1</Capability>
+  <Capability Min="128" Max="255">mode 2</Capability>
+ </Channel>
+ <Mode Name="13ch">
+  <Physical>
+   <Bulb Lumens="0" Type="" ColourTemperature="0"/>
+   <Dimensions Width="0" Height="0" Weight="0" Depth="0"/>
+   <Lens DegreesMax="0" Name="Other" DegreesMin="0"/>
+   <Focus PanMax="0" Type="Fixed" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Mode</Channel>
+  <Channel Number="1">Grating Mirror</Channel>
+  <Channel Number="2">Color Mode</Channel>
+  <Channel Number="3">Pattern</Channel>
+  <Channel Number="4">Vertical Strech</Channel>
+  <Channel Number="5">Horizontal Strech</Channel>
+  <Channel Number="6">Vertical Overturn</Channel>
+  <Channel Number="7">Horizontal Overturn</Channel>
+  <Channel Number="8">Rotation</Channel>
+  <Channel Number="9">Zoom</Channel>
+  <Channel Number="10">Pattern Size</Channel>
+  <Channel Number="11">Dot</Channel>
+  <Channel Number="12">Gradual draw</Channel>
+ </Mode>
+</FixtureDefinition>
