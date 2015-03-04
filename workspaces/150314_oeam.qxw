@@ -1,0 +1,1180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole" xmlns="http://qlcplus.sourceforge.net/Workspace">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.8.4 GIT</Version>
+  <Author>plug</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe ID="0" Passthrough="False" Name="Universe 1"/>
+   <Universe ID="1" Passthrough="False" Name="Universe 2">
+    <Input Plugin="OSC" Profile="resolume layer1" Line="0"/>
+    <Output Plugin="Loopback" Line="0"/>
+   </Universe>
+   <Universe ID="2" Passthrough="False" Name="Universe 3">
+    <Input Plugin="Loopback" Profile="loopback loopback" Line="0"/>
+   </Universe>
+   <Universe ID="3" Passthrough="False" Name="Universe 4"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>0</ID>
+   <Name>LED PAR64 up</Name>
+   <Universe>0</Universe>
+   <Address>69</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>1</ID>
+   <Name>ADJ Par #1</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>2</ID>
+   <Name>ADJ Par #2</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>3</ID>
+   <Name>ADJ Par #3</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega TRI64 Profile</Model>
+   <Mode>7ch</Mode>
+   <ID>4</ID>
+   <Name>ADJ Par #4</Name>
+   <Universe>0</Universe>
+   <Address>34</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB</Mode>
+   <ID>5</ID>
+   <Name>fake</Name>
+   <Universe>0</Universe>
+   <Address>99</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>6</ID>
+   <Name>SlimPAR #1</Name>
+   <Universe>0</Universe>
+   <Address>41</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>7</ID>
+   <Name>SlimPAR #2</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>8</ID>
+   <Name>SlimPAR #3</Name>
+   <Universe>0</Universe>
+   <Address>55</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>9</ID>
+   <Name>SlimPAR #4</Name>
+   <Universe>0</Universe>
+   <Address>62</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>10</ID>
+   <Name>flash</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>11</ID>
+   <Name>LED PAR64 front</Name>
+   <Universe>0</Universe>
+   <Address>75</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>12</ID>
+   <Name>LED PAR64 reactor 1</Name>
+   <Universe>0</Universe>
+   <Address>81</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>13</ID>
+   <Name>LED PAR64 reactor 2</Name>
+   <Universe>0</Universe>
+   <Address>87</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>14</ID>
+   <Name>allwhite</Name>
+   <Universe>1</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>15</ID>
+   <Name>quick subm cut</Name>
+   <Universe>1</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>16</ID>
+   <Name>slow subm cut</Name>
+   <Universe>1</Universe>
+   <Address>3</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>17</ID>
+   <Name>Dimmers #4</Name>
+   <Universe>1</Universe>
+   <Address>4</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>all</Name>
+   <Size X="4" Y="2"/>
+   <Head X="0" Y="1" Fixture="6">0</Head>
+   <Head X="1" Y="1" Fixture="7">0</Head>
+   <Head X="0" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="1" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="2">0</Head>
+   <Head X="2" Y="0" Fixture="3">0</Head>
+   <Head X="0" Y="2" Fixture="14">0</Head>
+   <Head X="3" Y="1" Fixture="9">0</Head>
+   <Head X="3" Y="0" Fixture="4">0</Head>
+   <Head X="1" Y="2" Fixture="15">0</Head>
+   <Head X="2" Y="2" Fixture="16">0</Head>
+   <Head X="3" Y="2" Fixture="17">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>all line plus fake</Name>
+   <Size X="8" Y="2"/>
+   <Head X="0" Y="0" Fixture="1">0</Head>
+   <Head X="1" Y="0" Fixture="2">0</Head>
+   <Head X="2" Y="0" Fixture="3">0</Head>
+   <Head X="3" Y="0" Fixture="4">0</Head>
+   <Head X="4" Y="0" Fixture="6">0</Head>
+   <Head X="5" Y="0" Fixture="7">0</Head>
+   <Head X="7" Y="1" Fixture="5">0</Head>
+   <Head X="6" Y="0" Fixture="8">0</Head>
+   <Head X="7" Y="0" Fixture="9">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="RGBMatrix" Name="color flash">
+   <Speed FadeOut="450" FadeIn="0" Duration="225"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4284366284</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Value="" Name="orientation"/>
+  </Function>
+  <Function ID="5" Type="Chaser" Name="color fill flash slow">
+   <Speed FadeOut="0" FadeIn="0" Duration="1800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
+   <Step FadeOut="0" FadeIn="0" Number="0" Hold="2290">35</Step>
+   <Step FadeOut="0" FadeIn="0" Number="1" Hold="1800">23</Step>
+   <Step FadeOut="0" FadeIn="0" Number="2" Hold="1800">23</Step>
+   <Step FadeOut="0" FadeIn="0" Number="3" Hold="1800">23</Step>
+  </Function>
+  <Function ID="6" Type="Chaser" Name="color flash flash slow">
+   <Speed FadeOut="0" FadeIn="0" Duration="900"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
+   <Step FadeOut="0" FadeIn="0" Number="0" Hold="630">0</Step>
+   <Step FadeOut="0" FadeIn="0" Number="1" Hold="900">23</Step>
+   <Step FadeOut="0" FadeIn="0" Number="2" Hold="900">23</Step>
+   <Step FadeOut="0" FadeIn="0" Number="3" Hold="900">23</Step>
+  </Function>
+  <Function ID="7" Type="Chaser" Name="color single flash slow">
+   <Speed FadeOut="0" FadeIn="0" Duration="1800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
+   <Step FadeOut="0" FadeIn="0" Number="0" Hold="2290">38</Step>
+   <Step FadeOut="0" FadeIn="0" Number="1" Hold="1800">23</Step>
+   <Step FadeOut="0" FadeIn="0" Number="2" Hold="1800">23</Step>
+   <Step FadeOut="0" FadeIn="0" Number="3" Hold="1800">23</Step>
+  </Function>
+  <Function ID="8" Type="Scene" Name="_u2 ch3 quick subm cut">
+   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+   <FixtureVal ID="-1"/>
+  </Function>
+  <Function ID="21" Type="Chaser" Name="color fill flash">
+   <Speed FadeOut="0" FadeIn="0" Duration="1800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
+   <Step FadeOut="0" FadeIn="0" Number="0" Hold="2290">35</Step>
+  </Function>
+  <Function ID="23" Type="Scene" Name="_u2 ch4 slow subm cut">
+   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+   <FixtureVal ID="-1"/>
+  </Function>
+  <Function ID="35" Type="RGBMatrix" Name="color fill">
+   <Speed FadeOut="0" FadeIn="40" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm Type="Script">Fill Unfill</Algorithm>
+   <MonoColor>4287567616</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Value="" Name="orientation"/>
+  </Function>
+  <Function ID="38" Type="RGBMatrix" Name="color single">
+   <Speed FadeOut="100" FadeIn="0" Duration="50"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <Algorithm Type="Script">Random Column</Algorithm>
+   <MonoColor>4284423248</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Function ID="54" Type="Chaser" Name="color flash flash">
+   <Speed FadeOut="0" FadeIn="0" Duration="900"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
+   <Step FadeOut="0" FadeIn="0" Number="0" Hold="630">0</Step>
+  </Function>
+  <Function ID="55" Type="Scene" Name="_u2 ch1 flash">
+   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+   <FixtureVal ID="10">0,255</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Chaser" Name="color single flash">
+   <Speed FadeOut="0" FadeIn="0" Duration="1800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
+   <Step FadeOut="0" FadeIn="0" Number="0" Hold="2290">38</Step>
+  </Function>
+  <Function ID="57" Type="Scene" Name="_u2 ch2 allwhite">
+   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+   <FixtureVal ID="14">0,255</FixtureVal>
+  </Function>
+  <Monitor ShowLabels="0" DisplayMode="1">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Background>/home/plug/Desktop/vue.png</Background>
+   <Grid Units="0" Width="3" Height="1"/>
+   <FxItem ID="1" XPos="7.88129" YPos="427.933"/>
+   <FxItem ID="0" XPos="1299.21" YPos="31.4961"/>
+   <FxItem ID="3" XPos="499.313" YPos="689.312"/>
+   <FxItem ID="2" XPos="201.612" YPos="678.844"/>
+   <FxItem ID="13" XPos="1622.05" YPos="708.661"/>
+   <FxItem ID="12" XPos="1623.61" YPos="471.067"/>
+   <FxItem ID="9" XPos="2830.92" YPos="492.095"/>
+   <FxItem ID="8" XPos="2680.66" YPos="809.493"/>
+   <FxItem ID="11" XPos="1181.1" YPos="559.055"/>
+   <FxItem ID="4" XPos="752.158" YPos="404.818"/>
+   <FxItem ID="7" XPos="2280.64" YPos="832.664"/>
+   <FxItem ID="6" XPos="2056.1" YPos="435.83"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame ID="11" Caption="FEGAFF">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState X="0" Y="0" Width="130" Visible="True" Height="510"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Enable>
+     <Key></Key>
+    </Enable>
+    <Slider ID="0" Caption="Laser MUSIC / AUTO" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState X="5" Y="40" Width="60" Visible="True" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4283825920</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ClickAndGoType="None" Monitor="false" ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level Value="200" HighLimit="200" LowLimit="199"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider ID="2" Caption="ADJ dimmer" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState X="65" Y="40" Width="60" Visible="True" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4286151033</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="1" Channel="18837"/>
+     <SliderMode ClickAndGoType="None" Monitor="false" ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level Value="0" HighLimit="255" LowLimit="0">
+      <Channel Fixture="1">6</Channel>
+      <Channel Fixture="2">6</Channel>
+      <Channel Fixture="3">6</Channel>
+      <Channel Fixture="4">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider ID="14" Caption="chavet dim" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState X="5" Y="245" Width="60" Visible="True" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ClickAndGoType="None" Monitor="false" ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level Value="255" HighLimit="255" LowLimit="0">
+      <Channel Fixture="6">6</Channel>
+      <Channel Fixture="7">6</Channel>
+      <Channel Fixture="8">6</Channel>
+      <Channel Fixture="9">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="8" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState X="130" Y="0" Width="1085" Visible="True" Height="605"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>False</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Enable>
+     <Key></Key>
+    </Enable>
+    <Slider ID="119" Caption="ALL white" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState X="795" Y="45" Width="70" Visible="True" Height="280"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4286151033</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="2" Channel="1"/>
+     <SliderMode ClickAndGoType="None" Monitor="false" ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level Value="0" HighLimit="255" LowLimit="0">
+      <Channel Fixture="0">0</Channel>
+      <Channel Fixture="0">1</Channel>
+      <Channel Fixture="0">2</Channel>
+      <Channel Fixture="1">0</Channel>
+      <Channel Fixture="1">1</Channel>
+      <Channel Fixture="1">2</Channel>
+      <Channel Fixture="2">0</Channel>
+      <Channel Fixture="2">1</Channel>
+      <Channel Fixture="2">2</Channel>
+      <Channel Fixture="3">0</Channel>
+      <Channel Fixture="3">1</Channel>
+      <Channel Fixture="3">2</Channel>
+      <Channel Fixture="4">0</Channel>
+      <Channel Fixture="4">1</Channel>
+      <Channel Fixture="4">2</Channel>
+      <Channel Fixture="6">0</Channel>
+      <Channel Fixture="6">1</Channel>
+      <Channel Fixture="6">2</Channel>
+      <Channel Fixture="7">0</Channel>
+      <Channel Fixture="7">1</Channel>
+      <Channel Fixture="7">2</Channel>
+      <Channel Fixture="8">0</Channel>
+      <Channel Fixture="8">1</Channel>
+      <Channel Fixture="8">2</Channel>
+      <Channel Fixture="9">0</Channel>
+      <Channel Fixture="9">1</Channel>
+      <Channel Fixture="9">2</Channel>
+      <Channel Fixture="11">0</Channel>
+      <Channel Fixture="11">1</Channel>
+      <Channel Fixture="11">2</Channel>
+      <Channel Fixture="12">0</Channel>
+      <Channel Fixture="12">1</Channel>
+      <Channel Fixture="12">2</Channel>
+      <Channel Fixture="13">0</Channel>
+      <Channel Fixture="13">1</Channel>
+      <Channel Fixture="13">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider ID="121" Caption="ALL strobe" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState X="880" Y="40" Width="60" Visible="True" Height="290"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4286151033</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ClickAndGoType="None" Monitor="false" ValueDisplayStyle="Exact">Level</SliderMode>
+     <Level Value="15" HighLimit="255" LowLimit="15">
+      <Channel Fixture="0">4</Channel>
+      <Channel Fixture="1">4</Channel>
+      <Channel Fixture="2">4</Channel>
+      <Channel Fixture="3">4</Channel>
+      <Channel Fixture="4">4</Channel>
+      <Channel Fixture="6">4</Channel>
+      <Channel Fixture="7">4</Channel>
+      <Channel Fixture="8">4</Channel>
+      <Channel Fixture="9">4</Channel>
+      <Channel Fixture="11">4</Channel>
+      <Channel Fixture="12">4</Channel>
+      <Channel Fixture="13">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <SpeedDial ID="140" Caption="matrices tap">
+     <WindowState X="870" Y="455" Width="210" Visible="True" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>116</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="10000"/>
+     <Tap>
+      <Input Universe="1" Channel="56441"/>
+     </Tap>
+     <Key>Return</Key>
+     <Function FadeOut="1" FadeIn="1" Duration="5">7</Function>
+     <Function FadeOut="1" FadeIn="1" Duration="5">56</Function>
+     <Function FadeOut="1" FadeIn="1" Duration="5">6</Function>
+     <Function FadeOut="1" FadeIn="1" Duration="5">54</Function>
+     <Function FadeOut="4" FadeIn="1" Duration="3">0</Function>
+     <Function FadeOut="1" FadeIn="1" Duration="5">5</Function>
+     <Function FadeOut="1" FadeIn="1" Duration="5">21</Function>
+    </SpeedDial>
+    <SpeedDial ID="15" Caption="matrices dur">
+     <WindowState X="950" Y="180" Width="120" Visible="True" Height="120"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>114</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="2000">
+      <Input Universe="0" Channel="1"/>
+     </AbsoluteValue>
+     <Tap/>
+     <Function FadeOut="0" FadeIn="0" Duration="6">56</Function>
+     <Function FadeOut="0" FadeIn="0" Duration="6">54</Function>
+     <Function FadeOut="0" FadeIn="0" Duration="6">21</Function>
+    </SpeedDial>
+    <SpeedDial ID="16" Caption="matrices in">
+     <WindowState X="955" Y="40" Width="120" Visible="True" Height="120"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>114</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="2000">
+      <Input Universe="0" Channel="5"/>
+     </AbsoluteValue>
+     <Tap/>
+     <Function FadeOut="0" FadeIn="6" Duration="0">56</Function>
+     <Function FadeOut="0" FadeIn="6" Duration="0">54</Function>
+     <Function FadeOut="0" FadeIn="6" Duration="0">21</Function>
+    </SpeedDial>
+    <SpeedDial ID="17" Caption="matrices out">
+     <WindowState X="955" Y="320" Width="120" Visible="True" Height="120"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>114</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="2000">
+      <Input Universe="0" Channel="0"/>
+     </AbsoluteValue>
+     <Tap/>
+     <Function FadeOut="6" FadeIn="0" Duration="0">56</Function>
+     <Function FadeOut="6" FadeIn="0" Duration="0">54</Function>
+     <Function FadeOut="6" FadeIn="0" Duration="0">21</Function>
+    </SpeedDial>
+    <Matrix ID="3" Caption="color fill">
+     <WindowState X="5" Y="40" Width="150" Visible="True" Height="170"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="35" InstantApply="true"/>
+     <Visibility>2</Visibility>
+     <Control ID="1">
+      <Type>StartColorKnob</Type>
+      <Color>#ff0000</Color>
+      <Input Universe="0" Channel="4"/>
+     </Control>
+     <Control ID="2">
+      <Type>StartColorKnob</Type>
+      <Color>#00ff00</Color>
+      <Input Universe="0" Channel="3"/>
+     </Control>
+     <Control ID="3">
+      <Type>StartColorKnob</Type>
+      <Color>#0000ff</Color>
+      <Input Universe="0" Channel="2"/>
+     </Control>
+     <Control ID="4">
+      <Type>Animation</Type>
+      <Resource>Random Fill Column</Resource>
+     </Control>
+     <Control ID="6">
+      <Type>Animation</Type>
+      <Resource>Fill Unfill</Resource>
+      <Property Name="orientation">Horizontal</Property>
+     </Control>
+    </Matrix>
+    <Matrix ID="19" Caption="color rand">
+     <WindowState X="155" Y="40" Width="150" Visible="True" Height="170"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="38" InstantApply="true"/>
+     <Visibility>2</Visibility>
+     <Control ID="1">
+      <Type>StartColorKnob</Type>
+      <Color>#ff0000</Color>
+      <Input Universe="0" Channel="4"/>
+     </Control>
+     <Control ID="2">
+      <Type>StartColorKnob</Type>
+      <Color>#00ff00</Color>
+      <Input Universe="0" Channel="3"/>
+     </Control>
+     <Control ID="3">
+      <Type>StartColorKnob</Type>
+      <Color>#0000ff</Color>
+      <Input Universe="0" Channel="2"/>
+     </Control>
+     <Control ID="4">
+      <Type>Animation</Type>
+      <Resource>Random Column</Resource>
+     </Control>
+     <Control ID="5">
+      <Type>Animation</Type>
+      <Resource>Stripes</Resource>
+      <Property Name="orientation">Horizontal</Property>
+     </Control>
+    </Matrix>
+    <Matrix ID="20" Caption="color flash">
+     <WindowState X="305" Y="40" Width="150" Visible="True" Height="170"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="0" InstantApply="true"/>
+     <Visibility>2</Visibility>
+     <Control ID="1">
+      <Type>StartColorKnob</Type>
+      <Color>#ff0000</Color>
+      <Input Universe="1" Channel="61755"/>
+     </Control>
+     <Control ID="2">
+      <Type>StartColorKnob</Type>
+      <Color>#00ff00</Color>
+      <Input Universe="1" Channel="31723"/>
+     </Control>
+     <Control ID="3">
+      <Type>StartColorKnob</Type>
+      <Color>#0000ff</Color>
+      <Input Universe="1" Channel="64084"/>
+     </Control>
+    </Matrix>
+    <Frame ID="23" Caption="quick">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState X="0" Y="210" Width="245" Visible="True" Height="365"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Enable>
+      <Key></Key>
+     </Enable>
+     <SoloFrame ID="124" Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState X="65" Y="40" Width="170" Visible="True" Height="70"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Enable>
+       <Key></Key>
+      </Enable>
+      <Button ID="129" Caption="color flash flash" Icon="">
+       <Function ID="54"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28"/>
+       <WindowState X="110" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="130" Caption="color single flash" Icon="">
+       <Function ID="56"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="29"/>
+       <WindowState X="10" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="1" Caption="color fill flash" Icon="">
+       <Function ID="21"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="27"/>
+       <WindowState X="60" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <Frame ID="133" Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState X="65" Y="110" Width="170" Visible="True" Height="70"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Enable>
+       <Key></Key>
+      </Enable>
+      <Button ID="138" Caption="color flash flash" Icon="">
+       <Function ID="54"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState X="110" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="139" Caption="color single flash" Icon="">
+       <Function ID="56"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState X="10" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="18" Caption="color fill flash" Icon="">
+       <Function ID="21"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState X="60" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </Frame>
+     <Slider ID="24" Caption="submaster" WidgetStyle="Slider" InvertedAppearance="true">
+      <WindowState X="5" Y="40" Width="60" Visible="True" Height="200"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="2" Channel="2"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Submaster</SliderMode>
+      <Level Value="255" HighLimit="255" LowLimit="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Frame ID="12" Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState X="65" Y="185" Width="170" Visible="True" Height="160"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Enable>
+       <Key></Key>
+      </Enable>
+      <Slider ID="13" Caption="fill" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState X="60" Y="10" Width="50" Visible="True" Height="140"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+       <Level Value="0" HighLimit="255" LowLimit="0"/>
+       <Playback>
+        <Function>21</Function>
+       </Playback>
+      </Slider>
+      <Slider ID="21" Caption="flash" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState X="110" Y="10" Width="50" Visible="True" Height="140"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Input Universe="2" Channel="0"/>
+       <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+       <Level Value="0" HighLimit="255" LowLimit="0"/>
+       <Playback>
+        <Function>54</Function>
+       </Playback>
+      </Slider>
+      <Slider ID="22" Caption="rand" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState X="10" Y="10" Width="50" Visible="True" Height="140"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+       <Level Value="0" HighLimit="255" LowLimit="0"/>
+       <Playback>
+        <Function>56</Function>
+       </Playback>
+      </Slider>
+     </Frame>
+    </Frame>
+    <Button ID="25" Caption="ol flash" Icon="">
+     <Function ID="55"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="1" Channel="30507"/>
+     <WindowState X="585" Y="90" Width="65" Visible="True" Height="60"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button ID="4" Caption="ol allwhite" Icon="">
+     <Function ID="57"/>
+     <Action>Flash</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="1" Channel="57062"/>
+     <WindowState X="805" Y="335" Width="50" Visible="True" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Frame ID="34" Caption="slow">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState X="245" Y="210" Width="245" Visible="True" Height="365"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Enable>
+      <Key></Key>
+     </Enable>
+     <SoloFrame ID="9" Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState X="65" Y="40" Width="170" Visible="True" Height="70"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Enable>
+       <Key></Key>
+      </Enable>
+      <Button ID="5" Caption="color flash flash slow" Icon="">
+       <Function ID="6"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28"/>
+       <WindowState X="110" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="6" Caption="color single flash slow" Icon="">
+       <Function ID="7"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="29"/>
+       <WindowState X="10" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="7" Caption="color fill flash slow" Icon="">
+       <Function ID="5"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="27"/>
+       <WindowState X="60" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </SoloFrame>
+     <Frame ID="28" Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState X="65" Y="110" Width="170" Visible="True" Height="70"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Enable>
+       <Key></Key>
+      </Enable>
+      <Button ID="10" Caption="color flash" Icon="">
+       <Function ID="54"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState X="110" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="26" Caption="color single flash" Icon="">
+       <Function ID="56"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState X="10" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+      <Button ID="27" Caption="color fill flash" Icon="">
+       <Function ID="21"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <WindowState X="60" Y="10" Width="50" Visible="True" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+      </Button>
+     </Frame>
+     <Slider ID="29" Caption="submaster" WidgetStyle="Slider" InvertedAppearance="true">
+      <WindowState X="5" Y="40" Width="60" Visible="True" Height="200"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="2" Channel="3"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Submaster</SliderMode>
+      <Level Value="255" HighLimit="255" LowLimit="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Frame ID="33" Caption="">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState X="65" Y="185" Width="170" Visible="True" Height="160"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Enable>
+       <Key></Key>
+      </Enable>
+      <Slider ID="30" Caption="fill" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState X="60" Y="10" Width="50" Visible="True" Height="140"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+       <Level Value="0" HighLimit="255" LowLimit="0"/>
+       <Playback>
+        <Function>21</Function>
+       </Playback>
+      </Slider>
+      <Slider ID="31" Caption="flash" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState X="110" Y="10" Width="50" Visible="True" Height="140"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Input Universe="2" Channel="0"/>
+       <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+       <Level Value="0" HighLimit="255" LowLimit="0"/>
+       <Playback>
+        <Function>54</Function>
+       </Playback>
+      </Slider>
+      <Slider ID="32" Caption="rand" WidgetStyle="Slider" InvertedAppearance="false">
+       <WindowState X="10" Y="10" Width="50" Visible="True" Height="140"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+       <Level Value="0" HighLimit="255" LowLimit="0"/>
+       <Playback>
+        <Function>56</Function>
+       </Playback>
+      </Slider>
+     </Frame>
+    </Frame>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ValueMode="Reduce" ChannelMode="Intensity" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+
