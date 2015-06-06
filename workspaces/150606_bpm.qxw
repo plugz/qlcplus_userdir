@@ -611,7 +611,7 @@
    <FixtureVal ID="7">0,20</FixtureVal>
    <FixtureVal ID="8">0,20</FixtureVal>
   </Function>
-  <Function Type="RGBMatrix" ID="8" Name="MAC DIM rgbmatrix">
+  <Function Type="RGBMatrix" ID="8" Name="MAC DIM fill unfill">
    <Speed FadeIn="990" Duration="990" FadeOut="1200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1326,7 +1326,45 @@
    <FixtureVal ID="7">5,178,11,51</FixtureVal>
    <FixtureVal ID="8">5,178,11,51</FixtureVal>
   </Function>
-  <Monitor ShowLabels="0" DisplayMode="1">
+  <Function Type="RGBMatrix" ID="70" Name="MAC DIM opp">
+   <Speed FadeIn="990" Duration="990" FadeOut="1200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Opposite</Algorithm>
+   <DimmerControl>0</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>9</FixtureGroup>
+   <Property Value="" Name="orientation"/>
+  </Function>
+  <Function Type="RGBMatrix" ID="71" Name="MAC DIM rand">
+   <Speed FadeIn="990" Duration="990" FadeOut="1200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Column</Algorithm>
+   <DimmerControl>0</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>9</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" ID="72" Name="MAC DIM rand rare">
+   <Speed FadeIn="990" Duration="990" FadeOut="1200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Random Single</Algorithm>
+   <DimmerControl>0</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>9</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" ID="73" Name="MAC DIM ping pong">
+   <Speed FadeIn="990" Duration="990" FadeOut="1200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <DimmerControl>0</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>9</FixtureGroup>
+   <Property Value="" Name="orientation"/>
+  </Function>
+  <Monitor ShowLabels="0" DisplayMode="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -1419,7 +1457,7 @@
      <Font>Default</Font>
     </Appearance>
    </Button>
-   <Frame Caption="" ID="13">
+   <Frame Caption="MAC - nanokontrol" ID="13">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1427,7 +1465,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="825" Height="790" Visible="True" X="1015" Y="45"/>
+    <WindowState Width="825" Height="635" Visible="True" X="1010" Y="40"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1437,8 +1475,8 @@
     <Enable>
      <Key></Key>
     </Enable>
-    <Slider Caption="MAC Dimmer" ID="8" InvertedAppearance="false" WidgetStyle="Slider">
-     <WindowState Width="60" Height="200" Visible="True" X="5" Y="40"/>
+    <Slider Caption="MAC Dimmer" ID="8" InvertedAppearance="false" WidgetStyle="Knob">
+     <WindowState Width="70" Height="130" Visible="True" X="650" Y="120"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1446,6 +1484,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="3" Channel="23"/>
      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
      <Level LowLimit="0" Value="0" HighLimit="255"/>
      <Playback>
@@ -1456,7 +1495,8 @@
      <Function ID="19"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="85" Height="50" Visible="True" X="300" Y="145"/>
+     <Input Universe="3" Channel="38"/>
+     <WindowState Width="85" Height="50" Visible="True" X="550" Y="270"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1469,7 +1509,8 @@
      <Function ID="9"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="85" Height="45" Visible="True" X="305" Y="105"/>
+     <Input Universe="3" Channel="39"/>
+     <WindowState Width="85" Height="45" Visible="True" X="640" Y="275"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1478,23 +1519,11 @@
       <Font>Default</Font>
      </Appearance>
     </Button>
-    <Matrix Caption="MAC DIM rgbmatrix" ID="19">
-     <WindowState Width="105" Height="185" Visible="True" X="70" Y="45"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="8" InstantApply="true"/>
-     <Visibility>3</Visibility>
-    </Matrix>
     <Button Icon="" Caption="MAC LAMP ON" ID="1">
      <Function ID="5"/>
      <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="50" Height="50" Visible="True" X="285" Y="50"/>
+     <WindowState Width="110" Height="85" Visible="True" X="45" Y="60"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1925,7 +1954,7 @@
      </Button>
     </SoloFrame>
     <SpeedDial Caption="move duration" ID="109">
-     <WindowState Width="200" Height="175" Visible="True" X="410" Y="510"/>
+     <WindowState Width="170" Height="165" Visible="True" X="630" Y="465"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1950,6 +1979,105 @@
      <Function FadeIn="0" Duration="6" FadeOut="0">56</Function>
      <Function FadeIn="0" Duration="6" FadeOut="0">3</Function>
     </SpeedDial>
+    <Frame Caption="" ID="110">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="340" Height="125" Visible="True" X="300" Y="120"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Enable>
+      <Key></Key>
+     </Enable>
+     <Slider Caption="fill unfill" ID="111" InvertedAppearance="false" WidgetStyle="Knob">
+      <WindowState Width="60" Height="105" Visible="True" X="5" Y="5"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="16"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+      <Level LowLimit="0" Value="0" HighLimit="255"/>
+      <Playback>
+       <Function>8</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="opp" ID="112" InvertedAppearance="false" WidgetStyle="Knob">
+      <WindowState Width="55" Height="100" Visible="True" X="65" Y="10"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="17"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+      <Level LowLimit="0" Value="0" HighLimit="255"/>
+      <Playback>
+       <Function>70</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="ping pong" ID="113" InvertedAppearance="false" WidgetStyle="Knob">
+      <WindowState Width="60" Height="110" Visible="True" X="125" Y="5"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="18"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+      <Level LowLimit="0" Value="0" HighLimit="255"/>
+      <Playback>
+       <Function>73</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="rand" ID="114" InvertedAppearance="false" WidgetStyle="Knob">
+      <WindowState Width="55" Height="110" Visible="True" X="190" Y="10"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="19"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+      <Level LowLimit="0" Value="0" HighLimit="255"/>
+      <Playback>
+       <Function>71</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="rand rare" ID="115" InvertedAppearance="false" WidgetStyle="Knob">
+      <WindowState Width="55" Height="105" Visible="True" X="255" Y="10"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="3" Channel="21"/>
+      <SliderMode ClickAndGoType="None" ValueDisplayStyle="Exact">Playback</SliderMode>
+      <Level LowLimit="0" Value="0" HighLimit="255"/>
+      <Playback>
+       <Function>72</Function>
+      </Playback>
+     </Slider>
+    </Frame>
    </Frame>
    <Frame Caption="loopback" ID="28">
     <Appearance>
@@ -2336,6 +2464,10 @@
      </AbsoluteValue>
      <Tap/>
      <Infinite/>
+     <Function FadeIn="0" Duration="0" FadeOut="6">72</Function>
+     <Function FadeIn="0" Duration="0" FadeOut="6">71</Function>
+     <Function FadeIn="0" Duration="0" FadeOut="6">73</Function>
+     <Function FadeIn="0" Duration="0" FadeOut="6">70</Function>
      <Function FadeIn="0" Duration="0" FadeOut="6">8</Function>
      <Function FadeIn="0" Duration="0" FadeOut="6">20</Function>
      <Function FadeIn="0" Duration="0" FadeOut="6">21</Function>
@@ -2355,6 +2487,10 @@
      </AbsoluteValue>
      <Tap/>
      <Infinite/>
+     <Function FadeIn="0" Duration="6" FadeOut="0">72</Function>
+     <Function FadeIn="0" Duration="6" FadeOut="0">71</Function>
+     <Function FadeIn="0" Duration="6" FadeOut="0">73</Function>
+     <Function FadeIn="0" Duration="6" FadeOut="0">70</Function>
      <Function FadeIn="0" Duration="6" FadeOut="0">8</Function>
      <Function FadeIn="0" Duration="6" FadeOut="0">20</Function>
      <Function FadeIn="0" Duration="6" FadeOut="0">21</Function>
@@ -2375,6 +2511,10 @@
      </AbsoluteValue>
      <Tap/>
      <Infinite/>
+     <Function FadeIn="6" Duration="0" FadeOut="0">72</Function>
+     <Function FadeIn="6" Duration="0" FadeOut="0">71</Function>
+     <Function FadeIn="6" Duration="0" FadeOut="0">73</Function>
+     <Function FadeIn="6" Duration="0" FadeOut="0">70</Function>
      <Function FadeIn="6" Duration="0" FadeOut="0">8</Function>
      <Function FadeIn="6" Duration="0" FadeOut="0">20</Function>
      <Function FadeIn="6" Duration="0" FadeOut="0">21</Function>
@@ -2395,6 +2535,10 @@
       <Input Universe="2" Channel="111"/>
      </Tap>
      <Infinite/>
+     <Function FadeIn="1" Duration="6" FadeOut="1">72</Function>
+     <Function FadeIn="1" Duration="6" FadeOut="1">71</Function>
+     <Function FadeIn="1" Duration="6" FadeOut="1">73</Function>
+     <Function FadeIn="1" Duration="6" FadeOut="1">70</Function>
      <Function FadeIn="1" Duration="6" FadeOut="1">8</Function>
      <Function FadeIn="1" Duration="6" FadeOut="1">20</Function>
      <Function FadeIn="1" Duration="6" FadeOut="1">21</Function>
