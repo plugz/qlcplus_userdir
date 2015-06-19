@@ -2336,12 +2336,12 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="555" Visible="True" X="1645" Y="0" Height="810"/>
+    <WindowState Width="555" Visible="True" X="1115" Y="10" Height="810"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
-    <Collapsed>True</Collapsed>
+    <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Enable>
      <Key></Key>
@@ -2570,8 +2570,8 @@
       <Function>0</Function>
      </Playback>
     </Slider>
-    <Matrix ID="10" Caption="ALL Pars sombre">
-     <WindowState Width="140" Visible="True" X="350" Y="545" Height="205"/>
+    <Matrix ID="10" Caption="TULLE">
+     <WindowState Width="60" Visible="True" X="320" Y="490" Height="225"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2586,20 +2586,9 @@
       <Color>#00e3ff</Color>
       <Input Universe="1" Channel="15"/>
      </Control>
-     <Control ID="2">
-      <Type>Animation</Type>
-      <Resource>Random Fill Single</Resource>
-      <Input Universe="1" Channel="15"/>
-     </Control>
      <Control ID="3">
       <Type>StartColor</Type>
       <Color>#0000ff</Color>
-      <Input Universe="1" Channel="17"/>
-     </Control>
-     <Control ID="4">
-      <Type>Animation</Type>
-      <Resource>Fill Unfill</Resource>
-      <Property Name="orientation">Horizontal</Property>
       <Input Universe="1" Channel="17"/>
      </Control>
      <Control ID="5">
@@ -2607,24 +2596,14 @@
       <Color>#0087ff</Color>
       <Input Universe="1" Channel="14"/>
      </Control>
-     <Control ID="6">
-      <Type>Animation</Type>
-      <Resource>Random Fill Column</Resource>
-      <Input Universe="1" Channel="16"/>
-     </Control>
      <Control ID="7">
       <Type>StartColor</Type>
       <Color>#ab00ff</Color>
       <Input Universe="1" Channel="16"/>
      </Control>
-     <Control ID="8">
-      <Type>Animation</Type>
-      <Resource>Random Fill Single</Resource>
-      <Input Universe="1" Channel="14"/>
-     </Control>
     </Matrix>
-    <Matrix ID="9" Caption="ALL Pars clair">
-     <WindowState Width="150" Visible="True" X="350" Y="340" Height="205"/>
+    <Matrix ID="9" Caption="SOL">
+     <WindowState Width="60" Visible="True" X="320" Y="250" Height="235"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2639,24 +2618,9 @@
       <Color>#00ff8d</Color>
       <Input Universe="1" Channel="15"/>
      </Control>
-     <Control ID="2">
-      <Type>Animation</Type>
-      <Resource>Balls</Resource>
-      <Property Name="presetRandom">No</Property>
-      <Property Name="presetNumber">3</Property>
-      <Property Name="presetSize">1</Property>
-      <Property Name="presetColision">No</Property>
-      <Input Universe="1" Channel="15"/>
-     </Control>
      <Control ID="3">
       <Type>StartColor</Type>
       <Color>#8fff00</Color>
-      <Input Universe="1" Channel="17"/>
-     </Control>
-     <Control ID="4">
-      <Type>Animation</Type>
-      <Resource>Opposite</Resource>
-      <Property Name="orientation">Horizontal</Property>
       <Input Universe="1" Channel="17"/>
      </Control>
      <Control ID="5">
@@ -2664,19 +2628,41 @@
       <Color>#ffffff</Color>
       <Input Universe="1" Channel="14"/>
      </Control>
-     <Control ID="6">
-      <Type>Animation</Type>
-      <Resource>Random Single</Resource>
-      <Input Universe="1" Channel="14"/>
-     </Control>
      <Control ID="7">
       <Type>StartColor</Type>
       <Color>#ff7fdc</Color>
       <Input Universe="1" Channel="16"/>
      </Control>
-     <Control ID="9">
-      <Type>Animation</Type>
-      <Resource>Random Column</Resource>
+    </Matrix>
+    <Matrix ID="93" Caption="DOUCHE">
+     <WindowState Width="60" Visible="True" X="405" Y="255" Height="235"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="96" InstantApply="true"/>
+     <Visibility>2</Visibility>
+     <Control ID="1">
+      <Type>StartColor</Type>
+      <Color>#00ff8d</Color>
+      <Input Universe="1" Channel="15"/>
+     </Control>
+     <Control ID="3">
+      <Type>StartColor</Type>
+      <Color>#8fff00</Color>
+      <Input Universe="1" Channel="17"/>
+     </Control>
+     <Control ID="5">
+      <Type>StartColor</Type>
+      <Color>#ffffff</Color>
+      <Input Universe="1" Channel="14"/>
+     </Control>
+     <Control ID="7">
+      <Type>StartColor</Type>
+      <Color>#ff7fdc</Color>
       <Input Universe="1" Channel="16"/>
      </Control>
     </Matrix>
@@ -2689,7 +2675,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="690" Visible="True" X="1580" Y="295" Height="490"/>
+    <WindowState Width="690" Visible="True" X="1625" Y="170" Height="490"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
