@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.10.3a</Version>
@@ -154,10 +154,10 @@
    <Head X="1" Y="0" Fixture="11">0</Head>
    <Head X="2" Y="0" Fixture="3">0</Head>
    <Head X="3" Y="0" Fixture="5">0</Head>
-   <Head X="4" Y="0" Fixture="6">0</Head>
-   <Head X="5" Y="0" Fixture="4">0</Head>
-   <Head X="6" Y="0" Fixture="2">0</Head>
-   <Head X="7" Y="0" Fixture="10">0</Head>
+   <Head X="4" Y="0" Fixture="4">0</Head>
+   <Head X="5" Y="0" Fixture="2">0</Head>
+   <Head X="6" Y="0" Fixture="10">0</Head>
+   <Head X="7" Y="0" Fixture="6">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="2">
    <Name>chill</Name>
@@ -167,60 +167,79 @@
    <Head X="2" Y="0" Fixture="1">0</Head>
    <Head X="3" Y="0" Fixture="9">0</Head>
   </FixtureGroup>
-  <Function ID="0" Type="EFX" Name="New EFX 0">
-   <Fixture>
-    <ID>10</ID>
-    <Head>0</Head>
-    <Mode>0</Mode>
-    <Direction>Forward</Direction>
-    <StartOffset>0</StartOffset>
-   </Fixture>
-   <Fixture>
-    <ID>11</ID>
-    <Head>0</Head>
-    <Mode>0</Mode>
-    <Direction>Forward</Direction>
-    <StartOffset>0</StartOffset>
-   </Fixture>
-   <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+  <FixtureGroup ID="3">
+   <Name>XS 70</Name>
+   <Size X="1" Y="2"/>
+   <Head X="0" Y="0" Fixture="11">0</Head>
+   <Head X="0" Y="1" Fixture="10">0</Head>
+  </FixtureGroup>
+  <Function ID="1" Type="RGBMatrix" Name="dancefloor 4x2 (quick)">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm>Circle</Algorithm>
-   <Width>127</Width>
-   <Height>127</Height>
-   <Rotation>0</Rotation>
-   <StartOffset>0</StartOffset>
-   <IsRelative>0</IsRelative>
-   <Axis Name="X">
-    <Offset>127</Offset>
-    <Frequency>2</Frequency>
-    <Phase>90</Phase>
-   </Axis>
-   <Axis Name="Y">
-    <Offset>127</Offset>
-    <Frequency>3</Frequency>
-    <Phase>0</Phase>
-   </Axis>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+   <Property Name="orientation" Value=""/>
+  </Function>
+  <Function ID="2" Type="RGBMatrix" Name="dancefloor line (slow)">
+   <Speed FadeIn="200" FadeOut="200" Duration="400"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+   <Property Name="orientation" Value=""/>
+  </Function>
+  <Function ID="3" Type="RGBMatrix" Name="chill">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="2000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Plasma</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>2</FixtureGroup>
+   <Property Name="color4Index" Value="Blue"/>
+   <Property Name="color1Index" Value=""/>
+   <Property Name="orientation" Value=""/>
+   <Property Name="color2Index" Value="Red"/>
+   <Property Name="stepsize" Value="25"/>
+   <Property Name="color5Index" Value="OFF"/>
+   <Property Name="presetIndex" Value=""/>
+   <Property Name="color3Index" Value="Green"/>
+   <Property Name="ramp" Value="15"/>
+   <Property Name="presetSize" Value="5"/>
+  </Function>
+  <Function ID="4" Type="RGBMatrix" Name="XS 70">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>3</FixtureGroup>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Background>160320_dvpm.png</Background>
-   <Grid Width="5" Height="4" Units="0"/>
-   <FxItem ID="1" XPos="3743.59" YPos="51.2821"/>
-   <FxItem ID="2" XPos="3769.23" YPos="2769.23"/>
-   <FxItem ID="3" XPos="3694.56" YPos="852.222"/>
-   <FxItem ID="8" XPos="2115.38" YPos="89.7436"/>
-   <FxItem ID="9" XPos="4576.92" YPos="38.4615"/>
-   <FxItem ID="10" XPos="2974.36" YPos="2717.95"/>
-   <FxItem ID="11" XPos="2967.9" YPos="857.311"/>
-   <FxItem ID="4" XPos="4551.28" YPos="2782.05"/>
-   <FxItem ID="5" XPos="4333.33" YPos="935.897"/>
-   <FxItem ID="6" XPos="2177.63" YPos="2775"/>
-   <FxItem ID="7" XPos="2179.49" YPos="1012.82"/>
-   <FxItem ID="0" XPos="2858.97" YPos="45.5079"/>
+   <Grid Width="2" Height="1" Units="0"/>
+   <FxItem ID="11" XPos="928.965" YPos="152.933"/>
+   <FxItem ID="8" XPos="640.127" YPos="30.7756"/>
+   <FxItem ID="9" XPos="1786.1" YPos="53.8444"/>
+   <FxItem ID="2" XPos="1397.28" YPos="599.844"/>
+   <FxItem ID="3" XPos="1390.76" YPos="146.062"/>
+   <FxItem ID="0" XPos="882.924" YPos="-195.991"/>
+   <FxItem ID="1" XPos="1322" YPos="-203.492"/>
+   <FxItem ID="6" XPos="673.991" YPos="670.47"/>
+   <FxItem ID="7" XPos="660.327" YPos="224.651"/>
+   <FxItem ID="4" XPos="1775.38" YPos="610.697"/>
+   <FxItem ID="5" XPos="1785.65" YPos="157.288"/>
+   <FxItem ID="10" XPos="947.212" YPos="634.137"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -232,6 +251,62 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
+   <Matrix Caption="chill" ID="0">
+    <WindowState Visible="True" X="230" Y="75" Width="160" Height="120"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="3" InstantApply="true"/>
+    <Visibility>2</Visibility>
+   </Matrix>
+   <Matrix Caption="dancefloor 4x2 (quick)" ID="1">
+    <WindowState Visible="True" X="430" Y="70" Width="160" Height="120"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="1" InstantApply="true"/>
+    <Visibility>2</Visibility>
+   </Matrix>
+   <Matrix Caption="dancefloor line (slow)" ID="2">
+    <WindowState Visible="True" X="620" Y="80" Width="160" Height="120"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="2" InstantApply="true"/>
+    <Visibility>2</Visibility>
+   </Matrix>
+   <Matrix Caption="XS 70" ID="3">
+    <WindowState Visible="True" X="805" Y="80" Width="160" Height="120"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4" InstantApply="true"/>
+    <Visibility>2</Visibility>
+    <Control ID="1">
+     <Type>Animation</Type>
+     <Resource>Plasma</Resource>
+     <Property Name="stepsize">50</Property>
+     <Property Name="presetIndex">Ocean</Property>
+     <Property Name="ramp">20</Property>
+     <Property Name="presetSize">2</Property>
+    </Control>
+   </Matrix>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
