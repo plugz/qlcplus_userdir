@@ -130,6 +130,8 @@
    <Universe>0</Universe>
    <Address>68</Address>
    <Channels>13</Channels>
+   <Modifier Channel="3" Name="ZERO"/>
+   <Modifier Channel="1" Name="ZERO"/>
   </Fixture>
   <Fixture>
    <Manufacturer>Ghost</Manufacturer>
@@ -140,6 +142,8 @@
    <Universe>0</Universe>
    <Address>81</Address>
    <Channels>13</Channels>
+   <Modifier Channel="3" Name="ZERO"/>
+   <Modifier Channel="1" Name="ZERO"/>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -234,7 +238,7 @@
    <FixtureVal ID="12">0,255</FixtureVal>
   </Function>
   <Function ID="1" Type="RGBMatrix" Name="dancefloor 4x2 (quick)">
-   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Speed FadeIn="282" FadeOut="203" Duration="298"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <Algorithm Type="Script">Stripes</Algorithm>
@@ -244,7 +248,7 @@
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
   <Function ID="2" Type="RGBMatrix" Name="dancefloor line (slow)">
-   <Speed FadeIn="200" FadeOut="200" Duration="400"/>
+   <Speed FadeIn="282" FadeOut="203" Duration="298"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <Algorithm Type="Script">Fill Unfill</Algorithm>
@@ -314,7 +318,7 @@
    <FixtureVal ID="15">0,255</FixtureVal>
   </Function>
   <Function ID="9" Type="Chaser" Name="df q 1 1">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="2384"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -325,7 +329,7 @@
    <FixtureVal ID="16">0,255</FixtureVal>
   </Function>
   <Function ID="11" Type="Chaser" Name="df q 1 8">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="2384"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -339,19 +343,142 @@
    <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">10</Step>
   </Function>
   <Function ID="12" Type="Chaser" Name="df s 1 1">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="2384"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
   </Function>
   <Function ID="13" Type="Chaser" Name="df s 1 2">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="2384"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+  </Function>
+  <Function ID="14" Type="Scene" Name="XS_mid">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,128,2,128</FixtureVal>
+   <FixtureVal ID="11">0,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="XS_cross">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,102,2,49</FixtureVal>
+   <FixtureVal ID="11">0,153,2,49</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="XS_idk">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,102,2,49</FixtureVal>
+   <FixtureVal ID="11">0,153,2,49</FixtureVal>
+  </Function>
+  <Function ID="17" Type="EFX" Name="big eight">
+   <Fixture>
+    <ID>10</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="18" Type="EFX" Name="big eight choppy">
+   <Fixture>
+    <ID>10</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareChoppy</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="19" Type="EFX" Name="up down">
+   <Fixture>
+    <ID>10</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="40000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>60</Width>
+   <Height>20</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>9</Frequency>
+    <Phase>0</Phase>
+   </Axis>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -887,6 +1014,276 @@
      </Playback>
     </Slider>
    </Frame>
+   <SpeedDial Caption="TAP" ID="24">
+    <WindowState Visible="True" X="810" Y="80" Width="200" Height="130"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>65636</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Tap>
+     <Input Universe="2" Channel="45"/>
+    </Tap>
+    <ResetFactorOnDialChange>True</ResetFactorOnDialChange>
+    <Mult>
+     <Input Universe="2" Channel="62"/>
+    </Mult>
+    <Div>
+     <Input Universe="2" Channel="61"/>
+    </Div>
+    <MultDivReset>
+     <Input Universe="2" Channel="60"/>
+    </MultDivReset>
+    <Time>0</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="9">13</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="9">12</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="9">11</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="9">9</Function>
+    <Function FadeIn="1" FadeOut="1" Duration="6">2</Function>
+    <Function FadeIn="1" FadeOut="1" Duration="6">1</Function>
+   </SpeedDial>
+   <SpeedDial Caption="duration" ID="28">
+    <WindowState Visible="True" X="810" Y="350" Width="200" Height="130"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>98</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="2" Channel="17"/>
+    </AbsoluteValue>
+    <ResetFactorOnDialChange>True</ResetFactorOnDialChange>
+    <Time>298</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="9">13</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="9">12</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="9">11</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="9">9</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">2</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">1</Function>
+   </SpeedDial>
+   <SpeedDial Caption="fade in" ID="29">
+    <WindowState Visible="True" X="810" Y="215" Width="200" Height="130"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>98</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="2" Channel="16"/>
+    </AbsoluteValue>
+    <ResetFactorOnDialChange>True</ResetFactorOnDialChange>
+    <Time>282</Time>
+    <Function FadeIn="6" FadeOut="0" Duration="0">1</Function>
+    <Function FadeIn="6" FadeOut="0" Duration="0">2</Function>
+   </SpeedDial>
+   <SpeedDial Caption="fade out" ID="30">
+    <WindowState Visible="True" X="815" Y="485" Width="200" Height="130"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>98</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="2000">
+     <Input Universe="2" Channel="18"/>
+    </AbsoluteValue>
+    <ResetFactorOnDialChange>True</ResetFactorOnDialChange>
+    <Time>203</Time>
+    <Function FadeIn="0" FadeOut="6" Duration="0">2</Function>
+    <Function FadeIn="0" FadeOut="6" Duration="0">1</Function>
+   </SpeedDial>
+   <SoloFrame Caption="" ID="40">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1080" Y="360" Width="230" Height="230"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="big eight" ID="41" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="17"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="37"/>
+    </Button>
+    <Button Caption="big eight choppy" ID="42" Icon="">
+     <WindowState Visible="True" X="80" Y="10" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="18"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="38"/>
+    </Button>
+    <Button Caption="up down" ID="43" Icon="">
+     <WindowState Visible="True" X="150" Y="10" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="19"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="39"/>
+    </Button>
+    <Button Caption="XS_cross" ID="44" Icon="">
+     <WindowState Visible="True" X="10" Y="80" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="15"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="53"/>
+    </Button>
+    <Button Caption="XS_idk" ID="45" Icon="">
+     <WindowState Visible="True" X="80" Y="80" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="16"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="54"/>
+    </Button>
+    <Button Caption="XS_mid" ID="46" Icon="">
+     <WindowState Visible="True" X="150" Y="80" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="14"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="55"/>
+    </Button>
+    <Button Caption="Button 47" ID="47" Icon="">
+     <WindowState Visible="True" X="10" Y="150" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 48" ID="48" Icon="">
+     <WindowState Visible="True" X="80" Y="150" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Button 49" ID="49" Icon="">
+     <WindowState Visible="True" X="150" Y="150" Width="70" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <XYPad Caption="XY Pad" ID="50" InvertedAppearance="0">
+    <WindowState Visible="True" X="1040" Y="55" Width="230" Height="230"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="10" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Pan Position="0">
+     <Input Universe="2" Channel="21"/>
+    </Pan>
+    <Tilt Position="0">
+     <Input Universe="2" Channel="5"/>
+    </Tilt>
+   </XYPad>
+   <XYPad Caption="XY Pad" ID="51" InvertedAppearance="0">
+    <WindowState Visible="True" X="1280" Y="55" Width="230" Height="230"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Fixture ID="11" Head="0">
+     <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+     <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+    </Fixture>
+    <Pan Position="0">
+     <Input Universe="2" Channel="23"/>
+    </Pan>
+    <Tilt Position="0">
+     <Input Universe="2" Channel="7"/>
+    </Tilt>
+   </XYPad>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
