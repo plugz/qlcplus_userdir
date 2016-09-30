@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.10.5 GIT</Version>
+  <Author>plug,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="DMXUSB OUTPUT" ID="0">
+    <Output Plugin="DMX USB"/>
+   </Universe>
+   <Universe Name="LOOPBACK" ID="1">
+    <Input Plugin="Loopback" Line="0" Profile="me loopback_dvpm"/>
+    <Output Plugin="Loopback" Line="0"/>
+   </Universe>
+   <Universe Name="NANOKONTROL2 INPUT" ID="2">
+    <Input Plugin="MIDI"/>
+    <Feedback Plugin="MIDI"/>
+   </Universe>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>electroconcept</Manufacturer>
+   <Model>CR-06</Model>
+   <Mode>13ch</Mode>
+   <ID>0</ID>
+   <Name>CR-06</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250+</Model>
+   <Mode>Mode 4</Mode>
+   <ID>1</ID>
+   <Name>MAC250+ 1</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250+</Model>
+   <Mode>Mode 4</Mode>
+   <ID>2</ID>
+   <Name>MAC250+ 2</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>3</ID>
+   <Name>SlimPar Tri 7 IRC #1</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>4</ID>
+   <Name>SlimPar Tri 7 IRC #2</Name>
+   <Universe>0</Universe>
+   <Address>46</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>5</ID>
+   <Name>SlimPar Tri 7 IRC #3</Name>
+   <Universe>0</Universe>
+   <Address>53</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPar Tri 7 IRC</Model>
+   <Mode>7 Channel</Mode>
+   <ID>6</ID>
+   <Name>SlimPar Tri 7 IRC #4</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>7</ID>
+   <Name>LED PAR64 #1</Name>
+   <Universe>0</Universe>
+   <Address>67</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>8</ID>
+   <Name>LED PAR64 #2</Name>
+   <Universe>0</Universe>
+   <Address>73</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>9</ID>
+   <Name>LED PAR64 #3</Name>
+   <Universe>0</Universe>
+   <Address>79</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Venue</Manufacturer>
+   <Model>LED PAR64</Model>
+   <Mode>Venue LED PAR64</Mode>
+   <ID>10</ID>
+   <Name>LED PAR64 #4</Name>
+   <Universe>0</Universe>
+   <Address>85</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Function ID="2" Name="MAC pos center" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="3" Name="MAC circle vague" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>120</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294965" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>30</Width>
+   <Height>30</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>160</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="4" Name="MAC up down lr sync" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294951" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>30</Width>
+   <Height>60</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>188</Offset>
+    <Frequency>13</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="5" Name="MAC LAMP ON" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">0,228</FixtureVal>
+   <FixtureVal ID="2">0,228</FixtureVal>
+  </Function>
+  <Function ID="6" Name="MAC Shutter Close" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+  </Function>
+  <Function ID="7" Name="MAC Shutter Open" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">0,20</FixtureVal>
+   <FixtureVal ID="2">0,20</FixtureVal>
+  </Function>
+  <Function ID="10" Name="MAC Dimmer" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">1,255</FixtureVal>
+   <FixtureVal ID="2">1,255</FixtureVal>
+  </Function>
+  <Function ID="23" Name="MAC Color White" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,0</FixtureVal>
+   <FixtureVal ID="2">2,0</FixtureVal>
+  </Function>
+  <Function ID="24" Name="MAC Color CTC" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,11</FixtureVal>
+   <FixtureVal ID="2">2,11</FixtureVal>
+  </Function>
+  <Function ID="25" Name="MAC Color Yellow" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,22</FixtureVal>
+   <FixtureVal ID="2">2,22</FixtureVal>
+  </Function>
+  <Function ID="26" Name="MAC Color Blue" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,33</FixtureVal>
+   <FixtureVal ID="2">2,33</FixtureVal>
+  </Function>
+  <Function ID="27" Name="MAC Color Pink" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,44</FixtureVal>
+   <FixtureVal ID="2">2,44</FixtureVal>
+  </Function>
+  <Function ID="28" Name="MAC Color Green" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,55</FixtureVal>
+   <FixtureVal ID="2">2,55</FixtureVal>
+  </Function>
+  <Function ID="29" Name="MAC Color DarkBlue" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,66</FixtureVal>
+   <FixtureVal ID="2">2,66</FixtureVal>
+  </Function>
+  <Function ID="30" Name="MAC Color Red" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,77</FixtureVal>
+   <FixtureVal ID="2">2,77</FixtureVal>
+  </Function>
+  <Function ID="31" Name="MAC Color Magenta" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,88</FixtureVal>
+   <FixtureVal ID="2">2,88</FixtureVal>
+  </Function>
+  <Function ID="32" Name="MAC Color RandomFast" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">2,247</FixtureVal>
+   <FixtureVal ID="2">2,247</FixtureVal>
+  </Function>
+  <Function ID="36" Name="MAC 1 dimmer" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">1,255</FixtureVal>
+  </Function>
+  <Function ID="37" Name="MAC 2 dimmer" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="2">1,255</FixtureVal>
+  </Function>
+  <Function ID="53" Name="MAC updown vague" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>120</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294965" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>0</Width>
+   <Height>30</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>160</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="54" Name="MAC robot" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Backward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294965" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareChoppy</Algorithm>
+   <Width>30</Width>
+   <Height>20</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>148</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="55" Name="MAC diag vague" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>120</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294965" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>5</Width>
+   <Height>20</Height>
+   <Rotation>45</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>148</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="56" Name="MAC diag sync" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294965" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Leaf</Algorithm>
+   <Width>5</Width>
+   <Height>20</Height>
+   <Rotation>45</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>148</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="57" Name="MAC leftright ud sync" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294951" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>30</Width>
+   <Height>30</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>13</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>160</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="58" Name="MAC left right vague" Type="EFX">
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>120</StartOffset>
+    <Intensity>0</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="4294965" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Lissajous</Algorithm>
+   <Width>30</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>0</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>128</Offset>
+    <Frequency>0</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="59" Name="MAC pos df" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="60" Name="MAC pos loin" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="61" Name="MAC pos df int" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="62" Name="MAC pos df ext" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="63" Name="MAC pos loin int" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="64" Name="MAC pos loin ext" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">7,128,8,0,9,128,10,0</FixtureVal>
+   <FixtureVal ID="2">7,128,8,0,9,128,10,0</FixtureVal>
+  </Function>
+  <Function ID="65" Name="MAC GP 1" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">3,13</FixtureVal>
+   <FixtureVal ID="2">3,13</FixtureVal>
+  </Function>
+  <Function ID="66" Name="MAC GP 2" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">3,23</FixtureVal>
+   <FixtureVal ID="2">3,23</FixtureVal>
+  </Function>
+  <Function ID="67" Name="MAC GP 3" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">3,39,6,41</FixtureVal>
+   <FixtureVal ID="2">3,39,6,41</FixtureVal>
+  </Function>
+  <Function ID="68" Name="MAC GP 4" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">3,88</FixtureVal>
+   <FixtureVal ID="2">3,88</FixtureVal>
+  </Function>
+  <Function ID="69" Name="MAC GP 5" Type="Scene" Path="MAC">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="1">3,178,6,51</FixtureVal>
+   <FixtureVal ID="2">3,178,6,51</FixtureVal>
+  </Function>
+  <Function ID="74" Name="MIRROR" Type="Scene" Path="LASER">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">1,102</FixtureVal>
+  </Function>
+  <Function ID="75" Name="blanc" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,6</FixtureVal>
+  </Function>
+  <Function ID="76" Name="rouge" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,11</FixtureVal>
+  </Function>
+  <Function ID="77" Name="jaune" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,16</FixtureVal>
+  </Function>
+  <Function ID="78" Name="vert" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,21</FixtureVal>
+  </Function>
+  <Function ID="79" Name="lblue" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,26</FixtureVal>
+  </Function>
+  <Function ID="80" Name="blue" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,31</FixtureVal>
+  </Function>
+  <Function ID="81" Name="magenta" Type="Scene" Path="LASER/COLOR">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">2,36</FixtureVal>
+  </Function>
+  <Function ID="82" Name="circle" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,0</FixtureVal>
+  </Function>
+  <Function ID="83" Name="- - - lf - -" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,4</FixtureVal>
+  </Function>
+  <Function ID="84" Name="| | | | | | |" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,6</FixtureVal>
+  </Function>
+  <Function ID="85" Name="double square" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,7</FixtureVal>
+  </Function>
+  <Function ID="86" Name="o o o o o" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,9</FixtureVal>
+  </Function>
+  <Function ID="87" Name="| |" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,13</FixtureVal>
+  </Function>
+  <Function ID="88" Name="|" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,15</FixtureVal>
+  </Function>
+  <Function ID="89" Name="double circle" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,16</FixtureVal>
+  </Function>
+  <Function ID="90" Name="vague" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,19</FixtureVal>
+  </Function>
+  <Function ID="91" Name="expl" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,24</FixtureVal>
+  </Function>
+  <Function ID="92" Name="coeur" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,27</FixtureVal>
+  </Function>
+  <Function ID="93" Name="square" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,29</FixtureVal>
+  </Function>
+  <Function ID="95" Name="star" Type="Scene" Path="LASER/SHAPE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">3,42</FixtureVal>
+  </Function>
+  <Function ID="97" Name="LASER shapes" Type="Chaser">
+   <Speed Duration="60000" FadeIn="0" FadeOut="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeIn="Default" FadeOut="Default"/>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="0">83</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="1">88</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="2">82</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="3">92</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="4">85</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="5">84</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="6">91</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="7">86</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="8">87</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="9">93</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="10">95</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="11">90</Step>
+   <Step Hold="60000" FadeIn="0" FadeOut="0" Number="12">89</Step>
+  </Function>
+  <Function ID="98" Name="V stretch" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">4,220</FixtureVal>
+  </Function>
+  <Function ID="99" Name="H stretch" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">5,220</FixtureVal>
+  </Function>
+  <Function ID="100" Name="V turn" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">6,220</FixtureVal>
+  </Function>
+  <Function ID="101" Name="H turn" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">7,220</FixtureVal>
+  </Function>
+  <Function ID="102" Name="Rotation" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">8,148</FixtureVal>
+  </Function>
+  <Function ID="103" Name="zoom" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">9,206</FixtureVal>
+  </Function>
+  <Function ID="104" Name="dot" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">11,1</FixtureVal>
+  </Function>
+  <Function ID="105" Name="gradual" Type="Scene" Path="LASER/MOVE">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
+   <FixtureVal ID="0">12,128</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1600" Height="900"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
