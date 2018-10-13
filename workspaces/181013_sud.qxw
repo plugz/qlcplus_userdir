@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.2 GIT</Version>
@@ -160,9 +160,16 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
-  <Function ID="3" Type="EFX" Name="New EFX 3">
+  <Function ID="3" Type="EFX" Name="XS70">
    <Fixture>
     <ID>10</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>11</ID>
     <Head>0</Head>
     <Mode>0</Mode>
     <Direction>Forward</Direction>
@@ -177,7 +184,7 @@
    <Height>127</Height>
    <Rotation>0</Rotation>
    <StartOffset>0</StartOffset>
-   <IsRelative>0</IsRelative>
+   <IsRelative>1</IsRelative>
    <Axis Name="X">
     <Offset>127</Offset>
     <Frequency>2</Frequency>
@@ -188,6 +195,26 @@
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
+  </Function>
+  <Function ID="4" Type="Scene" Name="XS70 pos sky" Path="XS70_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,128,2,128</FixtureVal>
+   <FixtureVal ID="11">0,128,2,128</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="XS70 pos public" Path="XS70_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,128,2,30</FixtureVal>
+   <FixtureVal ID="11">0,128,2,30</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="XS70 pos crossed" Path="XS70_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,168,2,30</FixtureVal>
+   <FixtureVal ID="11">0,88,2,30</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="XS70 pos opposite" Path="XS70_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,88,2,30</FixtureVal>
+   <FixtureVal ID="11">0,168,2,30</FixtureVal>
   </Function>
   <Function ID="8" Type="Chaser" Name="Laser Pattern Change">
    <Speed FadeIn="0" FadeOut="0" Duration="6850"/>
@@ -246,6 +273,11 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">3,70</FixtureVal>
   </Function>
+  <Function ID="14" Type="Scene" Name="BEAM pos sky" Path="BEAM_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,128,11,128</FixtureVal>
+   <FixtureVal ID="2">9,128,11,128</FixtureVal>
+  </Function>
   <Function ID="15" Type="Scene" Name="&lt;&gt;" Path="Laser/Pattern">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">3,3</FixtureVal>
@@ -270,9 +302,24 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">3,8</FixtureVal>
   </Function>
+  <Function ID="21" Type="Scene" Name="BEAM pos crossed" Path="BEAM_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,168,11,30</FixtureVal>
+   <FixtureVal ID="2">9,88,11,30</FixtureVal>
+  </Function>
   <Function ID="22" Type="Scene" Name="ECG" Path="Laser/Pattern">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">3,10</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="BEAM pos public" Path="BEAM_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,128,11,30</FixtureVal>
+   <FixtureVal ID="2">9,128,11,30</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="BEAM pos opposite" Path="BEAM_position">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,88,11,30</FixtureVal>
+   <FixtureVal ID="2">9,168,11,30</FixtureVal>
   </Function>
   <Function ID="25" Type="Scene" Name="||" Path="Laser/Pattern">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -442,6 +489,23 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">9,252</FixtureVal>
   </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="2" Height="3" Depth="1" Units="0"/>
+   <FxItem ID="2" XPos="1688.31" YPos="683.983"/>
+   <FxItem ID="0" XPos="824.242" YPos="34.632"/>
+   <FxItem ID="1" XPos="8.65801" YPos="683.117"/>
+   <FxItem ID="6" XPos="1106.49" YPos="894.372"/>
+   <FxItem ID="7" XPos="1388.74" YPos="888.312"/>
+   <FxItem ID="4" XPos="368.831" YPos="897.836"/>
+   <FxItem ID="5" XPos="703.896" YPos="898.701"/>
+   <FxItem ID="10" XPos="461.472" YPos="347.186"/>
+   <FxItem ID="11" XPos="1412.12" YPos="298.701"/>
+   <FxItem ID="8" XPos="5.07305" YPos="10.0108"/>
+   <FxItem ID="9" XPos="1753.71" YPos="13.704"/>
+  </Monitor>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
